@@ -1,6 +1,6 @@
 /*
 Error: File to import not found or unreadable: compass/css3.
-        on line 4 of C:/Sites/tvs-web/source/stylesheets/site.css.scss
+        on line 4 of C:/Users/rober/Documents/GitHub/trailvallesamuno/source/stylesheets/site.css.scss
 
 1: @charset "utf-8";
 2: @import "normalize";
@@ -13,7 +13,7 @@ Error: File to import not found or unreadable: compass/css3.
 9:   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 Backtrace:
-C:/Sites/tvs-web/source/stylesheets/site.css.scss:4
+C:/Users/rober/Documents/GitHub/trailvallesamuno/source/stylesheets/site.css.scss:4
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -126,4 +126,4 @@ C:/Ruby22-x64/bin/middleman:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/css3.\A         on line 4 of C:/Sites/tvs-web/source/stylesheets/site.css.scss\A \A 1: @charset \"utf-8\";\A 2: @import \"normalize\";\A 3: \A 4: @import \"compass/css3\";\A 5: \A 6: body {\A 7:   background: #ECC561;\A 8:   text-align: center;\A 9:   font-family: \"Lato\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;"; }
+  content: "Error: File to import not found or unreadable: compass/css3.\A         on line 4 of C:/Users/rober/Documents/GitHub/trailvallesamuno/source/stylesheets/site.css.scss\A \A 1: @charset \"utf-8\";\A 2: @import \"normalize\";\A 3: \A 4: @import \"compass/css3\";\A 5: \A 6: body {\A 7:   background: #ECC561;\A 8:   text-align: center;\A 9:   font-family: \"Lato\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;"; }
