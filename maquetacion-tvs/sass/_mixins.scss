@@ -1,0 +1,307 @@
+%subtle-shadow{
+	@include box-shadow(2px 2px 6px $colorSombra);
+} 
+
+%clearfixAfter{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+@mixin clearfixAfter{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+// Reseteo de los estilos para las etiquetas, especialmente cuando se usa Primefaces
+%cleanLabel{
+	text-align: left;
+	width: auto;
+	float: none;
+
+	&:after{
+		content: '';
+	}
+}
+
+/* http://www.sitepoint.com/new-css-image-replacement-technique/ */
+%text-replacement{
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	
+	// Éstos ya no están sacados de sitepoint, pero se acaban utilizando siempre :)
+	background-repeat:no-repeat;
+	background-position:left top;
+	display:block;	
+}
+
+@mixin font-size($pixels: $fontSizeBasico){
+	font-size:$pixels*1px;
+	font-size:$pixels/$fontSizeBasico*1rem;
+}
+
+@function anchoPorcentaje($pix, $totalWidth:$anchoTotalPX){
+	@return $pix*100/$totalWidth*1%;
+}
+
+@function sizeEM($pix, $fontSize:$fontSizeBasico){
+	@return $pix/$fontSize*1em;
+}
+
+@mixin margenMenu{
+	@if $floatMenu == left {
+		margin:0 0 0 (($anchoTotalPX*$porcentajeMargenContenidosParaMenu)/$fontSizeBasico)*1em;
+	}
+	@else if $floatMenu == right{
+  		margin:0 ((($anchoTotalPX*$porcentajeMargenContenidosParaMenu)/$fontSizeBasico)*1em) 0 0;
+  	}
+	@else{
+		margin:0;
+	}
+}
+
+/* Sombra para inputs text, textareas y combos */
+%inputs{
+	border:1px solid $colorBordeInputs;
+	background:#f4f4f4;
+	outline:none;
+	
+	@include box-shadow(inset 0 2px 3px rgba(0,0,0,.2));
+
+	/* Para que funcione en IE9 */
+	border-collapse: separate;	
+}
+
+/* Ancho de los contenidos */
+%row{
+	width:$anchoTotalPX / $fontSizeBasico * 1em;
+	margin:0 auto;
+}
+
+
+/* Stuart Robson's mobile-first, retro-compatible and 
+	manteinable	media query mixin 
+
+	http://alwaystwisted.com/post.php?s=2013-04-01-my-media-query-mixin
+
+	Con ligera modificación para adaptarse a nuestro
+	entorno de trabajo, básicamente para adaptarse a las 
+	classes que utiliza Liferay en función del navegador y
+	nuestras propias variables
+*/
+
+@mixin mq($point, $IE9: false, $query1: min, $query2: width) {
+    @if $IE9 == true{
+        .ie7 & ,
+        .ie8 & {
+            @content;
+        }
+        @media screen and (#{$query1}-#{$query2}: $point / $fontSizeBasicoMQ +em) {
+            @content;
+        }
+    }
+
+    @else {
+        @media screen and (#{$query1}-#{$query2}: $point / $fontSizeBasicoMQ +em) {
+            @content;
+        }
+    }
+}
+
+
+/* Retinize de Dan Cederholm */
+$is-hidpi: "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5),(min-resolution: 1.5dppx)";
+
+@mixin retinize($file, $type, $width, $height) {
+  background-image: url($img-root + '/' + $file + '.' + $type);
+ 
+  @media #{$is-hidpi} {
+    & {
+      background-image: url($img-root + '/' + $file + '-2x.' + $type);
+      @include background-size($width $height);
+    }
+  }
+}
+
+// https://gist.github.com/menslow/6600454
+// text-size-adjust
+//------------------------------------------------
+
+//
+// Values: none (default), auto, 100%
+//
+// Reference:
+// https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
+//
+
+@mixin text-size-adjust($value: none) {
+  -webkit-text-size-adjust: $value; 
+  //-moz-text-size-adjust: $value; --> Comentada esta línea para que el resultado sea idéntico a normalize.css de Bootstrap
+  -ms-text-size-adjust: $value; 
+}
+
+// ------------- Mixins menú
+%separadorAfter{
+	@include transition(width $animacionMedia ease);
+	background: $colorFuente;
+	bottom: -1em;
+	content: " ";
+	display: block;
+	height: 4px;
+	position: relative;
+	width: 30px;
+
+	@include mq($screen-sm-plus-min){
+		width: 0;
+	}
+}
+
+%separadorHoverAfter{
+	@include transition(width $animacionRapida ease);
+
+	width: 100%;	
+}
+// ------------- FIN Mixins menú
+
+// -- Final inclinado
+%finalInclinado{
+	&::after {
+		background-color: white;
+		bottom: -22%;
+		content: "";
+		display: block;
+		height: 200px;
+		left: -29%;
+		position: absolute;
+		transform: rotate(-11.2deg);
+		transition: all 1.4s ease 0s;
+		width: 200%;
+		z-index: 1;
+	}
+}
+
+// -- fIN Final inclinado
+
+/* Aspecto general de los botones, tambien para enlaces con estilo de boton */
+%enlaceBoton{
+	@include border-radius(4px);
+	@include box-sizing(border-box);
+	@include transition(background-color $animacionMedia ease, color $animacionMedia ease, box-shadow $animacionMedia ease);
+	@include appearance(none);
+
+	background:$colorTema;
+	border:0;	
+	color: $colorFuente;
+	display: block;
+	font-family:$fontFamilyLight;	
+	font-size:$fontSizeBotones;	
+	font-weight:normal;
+	line-height: sizeEM($lineHeightBasico);
+	margin-bottom: sizeEM($lineHeightBasico);
+	padding: sizeEM(9, 18) sizeEM(30, 18);
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	
+	@include mq($screen-sm-plus-min){
+		width: auto;
+	}
+
+	&:hover{
+		@include transition(background-color $animacionRapida ease, color $animacionRapida ease);
+
+		cursor:pointer;
+		background: $colorFuente;
+		color: $colorTema;
+	}
+	
+	&:active{
+		@include box-shadow(inset 0 3px 5px rgba(#000, .25));
+		@include transition(background-color $animacionRapida ease, color $animacionRapida ease, box-shadow $animacionRapida ease);
+	}
+
+	&[disabled]{
+		@include opacity(.5);
+	}
+
+	&[disabled]:active{
+		@include box-shadow(none);
+	}
+
+	&[disabled]:hover{
+		background:$colorTema;
+		color: $colorFuente;
+		cursor:default;
+	}
+
+	.icon{
+		height: sizeEM(13);
+		margin-right: .25em;
+		width: sizeEM(13);
+	}
+
+	.icon{
+		@include transition(fill $animacionMedia ease);
+
+		fill: $colorFuente;
+	}
+
+	&:hover .icon{
+		@include transition(fill $animacionRapida ease);
+
+		fill: $colorTema;
+	}
+}
+
+%altEnlaceBoton{
+	@extend %enlaceBoton;
+
+	background: $colorFuente;
+	border: 2px solid $colorFuente;
+	color: $colorTema;
+	padding: sizeEM(5, 18) sizeEM(26, 18);
+
+	&:hover{
+		background: $colorTema;
+		color: $colorFuente;
+	}
+
+	&:active{
+		@include box-shadow(inset 0 3px 4px rgba(#000, .12));
+	}
+
+	&[disabled]:hover{
+		background:$colorFuente;
+		color: $colorTema;
+	}
+
+	.icon{
+		fill: $colorTema;
+	}
+
+	&:hover .icon{
+		fill: $colorFuente;
+	}	
+}
+
+%opcionPrincipalMenu{
+	@include font-size(24);
+
+	display: inline-block;
+	margin-bottom: sizeEM(22, 24);
+	padding-bottom: 1em;
+	text-transform: uppercase;
+
+	@include mq($screen-sm-plus-min){
+		@include font-size(15);
+
+		font-family: $fontFamilyLight;
+		text-transform: none;
+	}
+}

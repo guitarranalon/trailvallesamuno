@@ -1,0 +1,403 @@
+::selection {background:$fondoSeleccion;color:$colorSeleccion;}
+::-moz-selection {background:$fondoSeleccion;color:$colorSeleccion;}
+
+html{
+	@include text-size-adjust(100%);
+	
+	font-size:$fontSizeBasico*1px;
+}
+
+html body{
+	margin:0 auto;
+	font-family:$fontFamilyLight;
+	font-size:$fontSizeBasico*1px;
+	line-height:$lineHeightBasico/$fontSizeBasico*1em;
+	color:$colorFuente;
+	background: $fondoPrincipal;
+}
+
+.row{
+	margin: 0 2em;
+
+	@include mq($screen-md-min){
+		margin: 0 auto;
+		width: sizeEM(942);
+	}
+}
+
+body #contenedor{
+	margin:1em auto 0;
+}
+
+#content p{
+	margin-bottom:$lineHeightBasico/$fontSizeBasico*1em;
+}
+
+/* quitar estilos de base.css */
+#content h1,
+#content .h1,
+#content h2,
+#content .h2,
+#content h3,
+#content .h3{
+	margin:0;
+}
+
+#content h2,
+#content .h2,
+#content h3,
+#content .h3,
+#content h3 a,
+#content h4,
+#content .h4,
+#content h5,
+#content .h5{
+	color:$colorFuente;
+	font-weight:normal;
+	margin-bottom:.5em;	
+	margin-top:0;
+}
+
+#content h1,
+#content .h1{
+	margin-bottom:.75em;
+	line-height:1.1em;	
+	@include font-size(32);
+}
+
+#content h2,
+#content .h2{
+	@include font-size(48);	
+	
+	font-family: $fontFamily;
+	margin-bottom : .25em;
+	line-height : 1.1em;
+	font-weight: normal;
+	color: $colorFuente;
+	margin-bottom: sizeEM(40, 48);
+	padding-bottom: sizeEM(40, 48);
+	position: relative;
+
+	&:after{
+		background: $colorTema;
+		content: " ";
+		display: block;
+		height: 4px;
+		position: absolute;
+		bottom: -4px;
+		width: 50px;
+	}	
+}
+
+#content h3,
+#content .h3{
+	@include font-size(28);
+	
+	font-family: $fontFamily;
+	font-weight: normal;
+	margin-bottom:sizeEM(22, 28);
+	line-height:1.1em;	
+	text-transform: uppercase;
+}
+
+#content h4,
+#content .h4{
+	@include font-size(24);
+	
+	font-family: $fontFamilyLight;
+	margin-bottom:sizeEM(18, 24);
+	line-height:1.1em;
+	font-weight:normal;	
+	text-transform: uppercase;
+}
+
+#content h5,
+#content .h5{
+	@include font-size(18);
+	
+	font-family: $fontFamily;
+	margin-bottom: sizeEM(26, 18);
+	line-height:1.1em;	
+}
+
+#content ul,
+#content ol{
+	line-height:sizeEM( $lineHeightBasico );
+	margin:0 0 sizeEM( $lineHeightBasico ) 1em;
+	padding-left: 0;
+}
+
+#content dl{
+	line-height:sizeEM( $lineHeightBasico );
+	margin:0 0 sizeEM( $lineHeightBasico );
+	padding-left: 0;
+}
+
+#content ul,
+#content ol,
+#content dl{
+	ul,
+	ol,
+	dl{
+		margin-left:2.5em;
+	}
+}
+
+#content dl dt{
+	font-weight:bold;
+	float:left;
+	clear:left;
+	margin-right:.5em;
+}
+
+#content dl dd{
+	margin-left:0;
+}
+
+#content dd > ul,
+#content dd > ol{
+	clear:left;
+}
+
+
+ol.listaLetras li{
+	list-style-type:lower-alpha;
+}
+/* Miga */
+#miga {
+	margin-bottom:1em;
+}
+
+#miga a {
+	text-decoration:none;
+	color:$colorEnlaceMiga;
+	text-transform:capitalize;
+	
+	&:hover{color:$colorHoverEnlaceMiga;}
+}
+
+#content a{
+	color:$colorEnlace;
+	&:hover{
+		color:$colorHoverEnlace;
+		text-decoration: none;
+	}
+}
+
+#content img{
+	max-width:100%;
+	height:auto;
+}
+
+#content .fotoDerecha,
+#content .mapaDerecha{
+	margin-bottom: sizeEM($lineHeightBasico);
+
+	@include mq($screen-sm-min){
+		float:right;
+		margin-left:3.184713%;		
+	}
+}
+
+#content .fotoIzquierda,
+#content .mapaIzquierda{
+	margin-bottom: sizeEM($lineHeightBasico);
+
+	@include mq($screen-sm-min){
+		float:left;
+		margin-right:3.184713%;
+	}
+}
+
+#content .fotoCentro,
+#content .mapaCentro{
+	width:auto;
+	text-align:center;
+	margin-top:sizeEM($lineHeightBasico);
+	margin-bottom:sizeEM($lineHeightBasico);
+}
+
+#content .fotoIzquierda,
+#content .fotoDerecha{
+	@include mq($screen-sm-min){
+		max-width: 31.1040339%;
+		height:auto;
+	}
+}
+
+#content .mapaIzquierda small a,
+#content .mapaDerecha small a,
+#content .mapaCentro small a{
+	color:$colorEnlace !important;
+}
+
+body .contenidoDestacado{
+	font-weight:bold;
+}
+
+#contenedor {
+	background-color:#FFFFFF;
+	margin:0 auto;
+}
+
+p.fecha{
+	font-weight:bold;
+	color:#454545;
+}
+
+/* Tablas */
+#content table{
+	border-collapse:collapse;
+	margin-bottom: sizeEM($lineHeightBasico);
+	width: 100%;
+}
+
+#content table caption{
+	padding: 1.5em 1em;
+}
+
+#content table caption,
+#content table th{
+	background:$colorTema;
+	color: $colorFuente;
+	font-family: $fontFamilyBold;
+	font-weight: normal; 
+	margin-bottom:0;
+}
+
+#content table th,
+#content table td{
+	padding:1.75em 1em 2.1em;
+	vertical-align: top;
+}
+
+#content table tbody tr + tr{
+	border-top: 1px solid #bbb;
+}
+/* FIN Tablas */
+
+#content a.button,
+a.enlaceBoton,
+a.button{
+	@extend %enlaceBoton;
+
+	margin-bottom: 0;
+}
+
+a.enlaceBoton.alt{
+	@extend %altEnlaceBoton;
+}
+
+/* Forms */
+#content form{
+	fieldset{
+		padding:0;
+		border: 0;
+	}
+
+	legend{
+		@include font-size(16);
+
+		border: 0; // normalizing
+		color: $colorFuente;		
+		display: block;		
+		font-weight: normal; // normalizing
+		margin-bottom: sizeEM($lineHeightBasico);		
+		padding: 0; // normalizing
+		width: 100%;	
+	}
+
+	label{
+		display: inline-block;
+		margin-bottom: sizeEM($lineHeightBasico/2);
+	}
+	
+	input[type=text],
+	input[type=password],
+	select,
+	textarea{
+		@include border-radius(3px);
+		@include box-sizing(border-box);		
+		@include transition(all .3s linear);			
+	
+		width: 100%;
+		margin-bottom:1em;
+		font-family:$fontFamily;
+		padding:3px 4px;
+		position:relative;
+		top:-2px;
+		border:1px solid $colorBordeInputs;
+		
+		&:focus{
+			border:1px solid $colorFocusBordeInputs;
+			@include transition(all .15s linear);				
+		}
+
+		&[disabled]{
+			font-style:italic;
+			background:$colorFondoInputDisabled;
+			color:$colorInputDisabled;
+			border-color:$colorBordeInputDisabled;
+		}
+	}
+	
+	textarea{
+		resize:vertical;
+	}
+	
+	input[type=checkbox]{
+		margin-top:3px;
+		margin-bottom:1em;
+	}
+	
+	#buttonHolder,
+	#button-holder{
+		margin: 0;
+	}
+	
+	input[type=submit],
+	input[type=button],
+	button{
+		@extend %enlaceBoton;
+
+		&.alt{
+			@extend %altEnlaceBoton;
+		}
+	}
+}
+/* Fin Forms */
+
+// Estilos generales para los iframes
+iframe{
+	border: 0;
+	max-width: 100%;
+}
+
+// Estilos para contenido a 2 y 3 columnas
+.columnas2{
+	@include mq($screen-sm-min){
+		@include column-count(2);
+	}
+}
+
+.columnas3{
+	@include mq($screen-sm-min){
+		@include column-count(3);
+	}
+}
+
+.icon{
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+}
+
+.hide{
+	display: none;
+}
+
+#content .noBullets{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}

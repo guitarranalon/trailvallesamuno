@@ -1,0 +1,31 @@
+@charset "UTF-8";
+// Para evitar problemas con carácteres como tildes o eñes lo primero en aparecer en la 
+// hoja de estilos tiene que ser la codificación de caracteres. No sirve si tiene delante 
+// espacios o comentarios
+
+//Compass, te queremos
+@import "compass/css3";
+
+@import "normalize";
+
+@import "fuentes";
+@import "base";
+
+// imports de base
+//Colores
+@import "colores";
+
+//Mixins
+@import "mixins";
+
+// FIN imports de base
+
+@import "general";
+
+@import "cabecera";
+
+@import "menu";
+
+@import "contenido";
+
+@import "pie";

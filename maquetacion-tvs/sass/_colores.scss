@@ -1,0 +1,39 @@
+$colorTema:#E9BF1B;
+
+$fondoPrincipal:#fff;
+$colorFuente:#292529;
+$fondoContenidos:#fff;
+
+$colorEnlace: $colorFuente;
+$colorHoverEnlace: $colorEnlace;
+
+$colorEnlaceMenu:$colorFuente;
+$colorHoverEnlaceMenu: mix($colorEnlaceMenu, $colorTema, 50%);
+
+$colorEnlaceMiga:#333;
+$colorHoverEnlaceMiga:mix($colorEnlaceMiga,$fondoContenidos,75%);
+
+$colorEnlacePie:#999;
+$colorHoverEnlacePie:mix($colorEnlacePie, #000, 50%);
+
+$colorSombra:rgba(#000,.4);
+
+//SELECCION
+$colorSeleccion:#fff;
+$fondoSeleccion:rgba($colorTema, .85);
+
+//FOTOS
+$colorBordeFotos:#9a9a9a;
+
+//FORMS
+$colorBordeInputs:#666;
+$colorFocusBordeInputs:#aaa;
+$colorFondoInputDisabled:#f0f0f0;
+$colorInputDisabled:#888;
+$colorBordeInputDisabled:#999;
+
+// PIE
+$fondoPie: #444;
+$colorPie: #ccc;
+$colorEnlacesPie: #ccc;
+$colorHoverEnlacesPie: mix($colorEnlacesPie, $fondoPie, 50%);

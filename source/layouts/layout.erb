@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="author" content="Roberto Cancio González" />
+    <meta content="carrera, montaña, trail, Samuño, running" name="keywords" />
+    <meta name="description" content="Carrera por montaña por el Valle de Samuño, dentro del Paisaje Protegido de las Cuencas Mineras, pero que también permite conocer algunas instalaciones mineras del lugar" />
+    <meta name="geo.placename" content="La Nueva, Langreo, Principado de Asturias, Spain" /> 
+    <meta name="geo.position" content="43.2617,-5.6737" />    
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Trail Valle de Samuño" %></title>
+
+    <%= stylesheet_link_tag :site %>
+
+    <%= partial "layouts/partials/favicons" %>    
+  </head>
+
+  <body class="<%= page_classes %>">
+	<%= partial "layouts/partials/header" %>
+    <%= yield %>
+	<%= partial "layouts/partials/footer" %>
+  <%= partial "layouts/partials/footerScripts" %>
+  </body>
+</html>

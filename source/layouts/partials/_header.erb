@@ -1,0 +1,34 @@
+<header id="header">
+	<div class="row">
+		<div class="tvs">
+			<h1>
+				<%= home_link("images/map.svg", "tvs-logo", "logo-tvs") %>
+				<%= current_page.data.title || "Trail Valle de Samuño" %>
+			</h1>
+			<nav id="main-nav">
+				<ul>
+				<% data.tree.pages.each do |page| %>
+				  <% if !page.hideFromMenu %>
+					  <li class="<%= nav_active(page.path) %>">
+						<%= link_orNot(page) %>
+						<% if page.children %>
+							<ul>
+								<% page.children.each do |childPage| %>
+									<li class="<%= nav_active(childPage.path) %>"> <%= link_orNot(childPage) %></li>
+								<% end %>
+							</ul>
+						<% end %>
+						
+					  </li>
+				  <% end %>
+				<% end %>
+				</ul>	
+			</nav>
+			<a class="inscripcion enlaceBoton" href="<%= compute_path("carrera/inscripcion.html") %>" title="Inscribirme en la prueba">
+			<svg class="icon inscripcion">
+				<use xlink:href="<%= compute_path("images/map.svg") %>#inscripcion-icon"></use>
+			</svg>
+			Inscribirme</a>
+		</div>
+	</div>
+</header>

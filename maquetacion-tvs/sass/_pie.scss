@@ -1,0 +1,142 @@
+footer{
+	background: $fondoPie;
+	color: $colorPie;
+	padding: 4em 0;
+	
+	a{
+		@include transition(color $animacionMedia ease);
+		
+		color: $colorEnlacesPie;
+		text-decoration: none;
+		
+		&:hover{
+			@include transition(color $animacionRapida ease);
+			
+			color: $colorHoverEnlacesPie;
+		}
+	}	
+
+	.row{
+		@include mq($screen-sm-min){
+			position: relative;
+		}
+	}
+}
+
+footer .cumbre{
+	margin-bottom: 2.5em;
+	text-align: center;
+
+	@include mq($screen-xs-min){
+		float: left;
+		height: sizeEM(68);
+		margin-bottom: 0;
+		margin-right: sizeEM(32);
+		width: sizeEM(51);
+	}
+
+	@include mq($screen-sm-min){
+		height: sizeEM(68);
+		margin-right: 0;
+		width: 5.414012%;
+	}
+}
+
+footer .cumbre a{
+	@extend %text-replacement;
+
+	display: inline-block;
+
+	.u-fill,
+	.u.border,
+	.topDash-fill,
+	.topDash-border{
+		@include transition(fill $animacionMedia ease, stroke $animacionMedia ease);
+	}
+
+	&:hover .u-fill{
+		@include transition(fill $animacionRapida ease);
+
+		fill: #aaa;
+	}
+
+	&:hover .u-border{
+		@include transition(stroke $animacionRapida ease);
+
+		stroke: #aaa;
+	}
+
+	&:hover .topDash-fill{
+		@include transition(fill $animacionRapida ease);
+
+		fill: $colorTema;
+	}
+
+	&:hover .topDash-border{
+		@include transition(stroke $animacionRapida ease);
+
+		stroke: $colorTema;
+	}
+}
+
+footer .cumbre .cumbre-logo{
+	height: 68px;
+	width: 51px;
+}
+
+footer .contact{
+	list-style: none;
+	margin-bottom: 1.5em;
+	padding-left: 0;
+	
+	@include mq($screen-sm-min){
+		margin-left: 8.598726%;
+		width: 22.611465%;
+	}
+
+	.tvs{
+		@include font-size(16);
+		
+		font-family: $fontFamily;
+		text-transform: uppercase;
+	}
+}
+
+footer .social{
+	@include mq($screen-sm-min){
+		position: absolute;
+		right: 0;
+		top: 0;	
+	}	
+}
+
+footer .social > ul{
+	list-style: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-left: 0;
+
+	> li{
+		display: inline-block;
+	}
+
+	> li + li{
+		margin-left: 1.75em;
+	}
+
+	a{
+		@extend %text-replacement;
+	}
+
+	a .icon{
+		@include transition(fill $animacionMedia ease);
+		
+		fill: #757575;
+	}
+
+	a .icon:hover{
+		@include transition(fill $animacionRapida ease);
+		
+		fill: #cfcfcf;
+	}
+}

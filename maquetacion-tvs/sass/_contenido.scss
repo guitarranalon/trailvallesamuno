@@ -1,0 +1,181 @@
+#content .excerpt{
+	@include mq($screen-sm-min){
+		min-height: 40em;
+		overflow: hidden;
+	}
+
+	.row{
+		padding: sizeEM(87) 0;
+
+		@include mq($screen-sm-min){
+			position: relative;
+		}
+	}
+
+	&:first-child{
+		padding-top: 0;
+	}
+
+	a.verRoadbook > .icon{
+		position: relative;
+		top: 2px;
+	}
+}
+
+#content .excerpt.alt{
+	background: $colorTema url(#{$img-root}/curvasNivel.svg) no-repeat 50% 50%;
+	@include background-size(cover);
+
+	a.button{
+		@extend %altEnlaceBoton;
+
+		margin-bottom: 0;
+	}
+
+	h2:after{
+		background: $colorFuente;
+	}
+}
+
+#content .excerpt a.button{
+	@include mq($screen-sm-min){
+		margin-left: anchoPorcentaje(486);
+		width: anchoPorcentaje(294);
+	}
+
+	@include mq($breakpoint-botones-portada){
+		width: anchoPorcentaje(213);
+	}
+}
+
+#content .excerpt.alt a.button{
+	@include mq($screen-sm-min){
+		margin-left: 0;
+		width: anchoPorcentaje(294);		
+	}
+
+	@include mq($breakpoint-botones-portada){
+		width: anchoPorcentaje(213);
+	}	
+}
+
+#content .excerpt img{
+	@include mq($screen-sm-min){
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: anchoPorcentaje(375);		
+	}
+}
+
+#content .excerpt p,
+#content .excerpt h2{
+	@include mq($screen-sm-min){
+		margin-left: anchoPorcentaje(486);
+		width: anchoPorcentaje(456);
+	}
+}
+
+#content .excerpt:first-child h2{
+	@include mq($screen-sm-min){
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+#content .excerpt.alt img{
+	@include mq($screen-sm-min){
+		left: auto;
+		right: 0;
+	}
+}
+
+#content .excerpt.alt p,
+#content .excerpt.alt h2{
+	@include mq($screen-sm-min){
+		margin-left: 0;
+		width: anchoPorcentaje(456);
+	}
+}
+// -- Datos portada
+#content ul.data{
+	list-style: none;
+	margin: 0;
+
+	&:after{
+		@include mq($screen-sm-min){
+			@include clearfixAfter;
+		}
+	}
+
+	> li{
+		@extend %finalInclinado;
+
+		background: $colorTema url(#{$img-root}/curvasNivel.svg) no-repeat 50% 50%;
+		@include background-size(cover);
+		overflow: hidden;
+		padding: sizeEM(70) 0 sizeEM(200);
+		position: relative;
+
+		@include mq($screen-sm-min){
+			float: left;
+			width: anchoPorcentaje(213);
+		}
+	}
+
+	> li + li{
+		@include mq($screen-sm-min){
+			margin-left: anchoPorcentaje(30);
+		}
+	}
+
+	.value{
+		@include font-size(90);
+
+		font-family: $fontFamilyBold;
+		display: block;
+		line-height: 1em;
+		text-align: center;
+
+		@include mq($screen-sm-min){
+			@include font-size(65);
+		}
+
+		@include mq($screen-sm-plus-min){
+			@include font-size(90);
+		}		
+	}
+
+	.unit{
+		@include font-size(42);
+
+		display: block;
+		font-family: $fontFamilyLight;
+		line-height: 1em;
+		text-align: center;
+
+		@include mq($screen-sm-min){
+			@include font-size(32);
+		}
+
+		@include mq($screen-sm-plus-min){
+			@include font-size(42);
+		}			
+	}
+}
+
+// Contacto
+.contacto #content{
+	ul > li{
+		margin-bottom: sizeEM($lineHeightBasico / 2);
+	}
+
+	.icon{
+		fill: $colorFuente;
+		height: sizeEM(16);
+		margin-right: sizeEM(5);
+		position: relative;
+		top: 3px;
+	}
+}
+// FIN Contacto

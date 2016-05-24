@@ -1,0 +1,57 @@
+$font-root:'../fonts';
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('#{$font-root}/montserrat-bold/montserrat-bold-webfont.eot');
+    src: url('#{$font-root}/montserrat-bold/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-root}/montserrat-bold/montserrat-bold-webfont.woff2') format('woff2'),
+         url('#{$font-root}/montserrat-bold/montserrat-bold-webfont.woff') format('woff'),
+         url('#{$font-root}/montserrat-bold/montserrat-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('#{$font-root}/montserrat-light/montserrat-light-webfont.eot');
+    src: url('#{$font-root}/montserrat-light/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-root}/montserrat-light/montserrat-light-webfont.woff2') format('woff2'),
+         url('#{$font-root}/montserrat-light/montserrat-light-webfont.woff') format('woff'),
+         url('#{$font-root}/montserrat-light/montserrat-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('#{$font-root}/montserrat-regular/montserrat-regular-webfont.eot');
+    src: url('#{$font-root}/montserrat-regular/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-root}/montserrat-regular/montserrat-regular-webfont.woff2') format('woff2'),
+         url('#{$font-root}/montserrat-regular/montserrat-regular-webfont.woff') format('woff'),
+         url('#{$font-root}/montserrat-regular/montserrat-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratultra_light';
+    src: url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.eot');
+    src: url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.woff2') format('woff2'),
+         url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.woff') format('woff'),
+         url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
