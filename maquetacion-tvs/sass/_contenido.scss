@@ -1,3 +1,7 @@
+#content{
+	margin-bottom: sizeEM(70);
+}
+
 #content .excerpt{
 	@include mq($screen-sm-min){
 		min-height: 40em;
@@ -12,7 +16,7 @@
 		}
 	}
 
-	&:first-child{
+	&:first-child > .row{
 		padding-top: 0;
 	}
 
