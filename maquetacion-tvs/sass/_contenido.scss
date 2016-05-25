@@ -18,6 +18,10 @@
 
 	&:first-child > .row{
 		padding-top: 0;
+		
+		@include mq($screen-sm-plus-min){
+			padding-top: sizeEM(87);
+		}
 	}
 
 	a.verRoadbook > .icon{
