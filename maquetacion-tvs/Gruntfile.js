@@ -82,6 +82,7 @@ module.exports = function(grunt) {
 		  		'javascripts/desarrollo/tvs.jquery.menu-aim-call.js',
 		  		'javascripts/desarrollo/tvs.jquery.mobileMenuAndSearch.js',
 		  		'javascripts/desarrollo/invocations.js',
+		  		'javascripts/desarrollo/analytics.js'
 		  	],
 		  dest: 'javascripts/all.js',
 		  nonull: true,
