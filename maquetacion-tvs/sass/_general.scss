@@ -407,3 +407,12 @@ iframe{
 	margin: 0 0 sizeEM($lineHeightBasico);
 	padding: sizeEM(10) sizeEM(20);
 }
+
+.figure-caption{
+	color: adjust-color($colorFuente, $lightness: 30%);
+	font-size: 90%;
+}
+
+.aparte{
+	clear: both;
+}
