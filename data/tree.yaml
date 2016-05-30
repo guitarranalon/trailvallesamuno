@@ -11,6 +11,9 @@ pages:
     - name: Perfil y recorrido
       path: carrera/recorrido.html
       title: Ir al perfil y mapa de la prueba
+    - name: Roadbook
+      path: carrera/roadbook.html
+      title: Ir al roadbook de la prueba
     - name: Inscripción
       path: carrera/inscripcion.html
       title: Ir a la página de inscripción
