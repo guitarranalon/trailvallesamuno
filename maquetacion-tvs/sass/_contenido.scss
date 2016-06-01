@@ -191,3 +191,52 @@
 .wikilocMap{
 	width: 100%;
 }
+
+// Patrocinadores
+#content .patrocinadores{
+	list-style: none;
+	margin-left: 0;
+
+	> li{
+		margin-bottom: sizeEM($lineHeightBasico * 1.5);
+
+		@include mq($screen-xs-min){
+			margin: 0 auto sizeEM($lineHeightBasico * 2);
+			width: sizeEM(213);
+		}
+
+		@include mq($screen-sm-min){
+			float: left;
+			margin-left: anchoPorcentaje(30);
+			width: anchoPorcentaje(213);
+		}
+	}
+
+	>li:nth-of-type(4n+1){
+		@include mq($screen-sm-min){
+			margin-left: 0;
+		}
+	}
+
+	> li > a{
+		display: block;
+	}
+
+	> li > a > img{
+		@include transition(opacity $animacionRapida ease);
+
+		vertical-align: top;
+	}
+
+	> li > a:hover > img{
+		@include transition(opacity $animacionMedia ease);
+
+		opacity: 0.5;
+	}
+}
+
+#content .patrocinadores:after{
+	@include mq($screen-sm-min){
+		@include clearfixAfter;
+	}
+}
