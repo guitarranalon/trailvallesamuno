@@ -5,6 +5,14 @@ title: Patrocinadores - Trail Valle de Samuño
 <div id="content">
 	<div class="row">
 		<h2>Patrocinadores</h2>
-		<p>Próximamente se publicará la lista de patrocinadores de la carrera.</p>
+		<ul class="patrocinadores">
+			<% data.patrocinadores.empresas.each do |empresa| %>
+				<li>
+					<a href="<%= empresa.link %>" title="<%= empresa.linktitle %>">
+						<img src="../images/patrocinadores/<%= empresa.image %>" alt="<%= empresa.name %>" />
+					</a>
+				</li>
+			<% end %>
+		</ul>
 	</div>
 </div>
