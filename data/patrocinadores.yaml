@@ -4,3 +4,7 @@ empresas:
     image: clinicaNalonDental.jpg
     link: http://www.clinicanalondental.com
     linktitle: Ir a la web de la Clínica Nalón Dental
+  - name: Caja Rural de Asturias
+    image: cajaRural.png
+    link: http://www.cajaruraldeasturias.com/
+    linktitle: Ir a la web de la Caja Rural de Asturias  
