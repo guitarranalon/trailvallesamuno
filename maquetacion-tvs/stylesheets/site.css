@@ -1820,23 +1820,32 @@ header h1 a:hover .icon {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003196}}
+#content .icon.marker {
+  fill: #292529;
+  margin-right: 0.357143em;
+  position: relative;
+  top: 3px;
+  width: 1.214286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003205}}
 #content .patrocinadores {
   list-style: none;
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003209}}
 #content .patrocinadores > li {
   margin-bottom: 2.25em;
 }
 @media screen and (min-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003209}}
   #content .patrocinadores > li {
     margin: 0 auto 3em;
     width: 15.214286em;
   }
 }
 @media screen and (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003209}}
   #content .patrocinadores > li {
     float: left;
     margin-left: 3.184713%;
@@ -1844,16 +1853,16 @@ header h1 a:hover .icon {
   }
 }
 @media screen and (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003224}}
   #content .patrocinadores > li:nth-of-type(4n+1) {
     margin-left: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003230}}
 #content .patrocinadores > li > a {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003234}}
 #content .patrocinadores > li > a > img {
   -moz-transition: opacity 0.12s ease;
   -o-transition: opacity 0.12s ease;
@@ -1861,7 +1870,7 @@ header h1 a:hover .icon {
   transition: opacity 0.12s ease;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003240}}
 #content .patrocinadores > li > a:hover > img {
   -moz-transition: opacity 0.3s ease;
   -o-transition: opacity 0.3s ease;
@@ -1871,7 +1880,7 @@ header h1 a:hover .icon {
 }
 
 @media screen and (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003247}}
   #content .patrocinadores:after {
     clear: both;
     content: ".";

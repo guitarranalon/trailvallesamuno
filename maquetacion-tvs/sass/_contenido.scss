@@ -192,6 +192,15 @@
 	width: 100%;
 }
 
+// Map marker
+#content .icon.marker{
+	fill: $colorFuente;
+	margin-right: sizeEM(5);
+	position: relative;
+	top: 3px;
+	width: sizeEM(17);
+}
+
 // Patrocinadores
 #content .patrocinadores{
 	list-style: none;
