@@ -28,14 +28,14 @@ module.exports = function(grunt) {
       dist: {
         options: {
           sassDir: 'sass',
-          cssDir: 'css/c1nn',
+          cssDir: 'stylesheets',
           outputStyle: 'compressed'
         }
       },
       dev:{
 		options: {
 			sassDir:'sass',
-			cssDir:'css/c1nn'
+			cssDir:'stylesheets'
 		}
       }
     },
@@ -81,6 +81,9 @@ module.exports = function(grunt) {
 		  		'javascripts/desarrollo/jquery.menu-aim.js',
 		  		'javascripts/desarrollo/tvs.jquery.menu-aim-call.js',
 		  		'javascripts/desarrollo/tvs.jquery.mobileMenuAndSearch.js',
+		  		'javascripts/desarrollo/jquery.scrollUp.js',
+				'javascripts/desarrollo/featherlight.js',
+				'javascripts/desarrollo/featherlight.gallery.js',
 		  		'javascripts/desarrollo/invocations.js',
 		  		'javascripts/desarrollo/analytics.js'
 		  	],

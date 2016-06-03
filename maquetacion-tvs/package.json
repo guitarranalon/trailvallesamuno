@@ -1,17 +1,18 @@
 {
-  "name": "plantilla-front-c1nn",
+  "name": "trail-valle-samuno",
   "version": "0.1.0",
-  "description": "Plantilla para desarrollo de webs estáticas del Centro de Innovación",
+  "description": "Site of the Trail Valle de Samuño",
   "keywords": [
-    "front-end",
-    "plantilla",
-    "C1Nn",
-    "Centro de Innovación",
-    "Universidad de Oviedo",
-    "Uniovi"
+    "trail",
+    "trailrunning",
+    "running",
+    "mountain",
+    "Langreo",
+    "Asturias"
   ],
-  "author": "Equipo front-end del Centro de Innovación (C1Nn)",
-  "license": "(C) Universidad de Oviedo",
+  "author": "Roberto Cancio González",
+  "private": true,
+  "license": "UNLICENSED",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-coffee": "~1.0.0",

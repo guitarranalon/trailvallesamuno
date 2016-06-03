@@ -16,7 +16,7 @@ body #scrollUp{
 
 	&:before{
 		@include font-size(20);
-		@extend %icon-up-open;
+		//@extend %icon-up-open;
 	}
 
 	&:hover,
