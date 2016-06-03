@@ -1,10 +1,14 @@
 body #scrollUp{
+	@include box-shadow(0 8px 9px rgba(0,0,0,.2));
 	@include font-size(0);
 	@include transition(background $animacionMedia ease, color $animacionMedia ease);
-	bottom: 25px;
-	right: 25px;
-	background: #ccc;
-	background: rgba(#ddd, .5); // Para navegadores cool
+
+	background: $colorTema url(#{$img-root}/up.svg) no-repeat 50% 50%;
+	@include  background-size(17px, 17px);
+
+	bottom: 28px;
+	right: 28px;
+	background-color: $colorTema;
 	color: #272727;
 	display: block;
 	border-radius: 50%;
@@ -14,21 +18,17 @@ body #scrollUp{
 	text-align: center;
 	padding: 10px 6px 2px;
 
-	&:before{
-		@include font-size(20);
-		//@extend %icon-up-open;
-	}
-
 	&:hover,
 	&:focus:hover{
-		@include transition(background $animacionMedia ease, color $animacionMedia ease);		
-		background: $colorTema;
-		color: #fff;
+		@include transition(background-color $animacionMedia ease);	
+
+		background-color: $colorTema;
 	}
 
 	&:focus{
-		background: #ccc;
-		background: rgba(#ddd, .5); // Para navegadores cool
-		color: #272727;		
+		@include transition(background-color $animacionMedia ease);
+
+		background-color: $colorTema;
+		background-color: rgba($colorTema, .75); // Para navegadores cool	
 	}
 }
