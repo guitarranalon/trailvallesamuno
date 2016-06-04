@@ -1019,45 +1019,52 @@ ol.listaLetras li {
     height: auto;
   }
 }
+@media screen and (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003227}}
+  #content .fotoIzquierda.estrecha,
+  #content .fotoDerecha.estrecha {
+    max-width: 22.611465%;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003234}}
 #content .mapaIzquierda small a,
 #content .mapaDerecha small a,
 #content .mapaCentro small a {
   color: #292529 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003240}}
 body .contenidoDestacado {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003244}}
 #contenedor {
   background-color: #FFFFFF;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003249}}
 p.fecha {
   font-weight: bold;
   color: #454545;
 }
 
 /* Tablas */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003255}}
 #content table {
   border-collapse: collapse;
   margin-bottom: 1.5em;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003261}}
 #content table caption {
   padding: 1.5em 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003265}}
 #content table caption,
 #content table th {
   background: #E9BF1B;
@@ -1067,20 +1074,20 @@ p.fecha {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003274}}
 #content table th,
 #content table td {
   padding: 1.75em 1em 2.1em;
   vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003280}}
 #content table tbody tr + tr {
   border-top: 1px solid #bbb;
 }
 
 /* FIN Tablas */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003285}}
 #content a.button,
 a.enlaceBoton,
 a.button {
@@ -1088,12 +1095,12 @@ a.button {
 }
 
 /* Forms */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003299}}
 #content form fieldset {
   padding: 0;
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003304}}
 #content form legend {
   font-size: 16px;
   font-size: 1.142857rem;
@@ -1105,12 +1112,12 @@ a.button {
   padding: 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003316}}
 #content form label {
   display: inline-block;
   margin-bottom: 0.75em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003321}}
 #content form input[type=text],
 #content form input[type=password],
 #content form select,
@@ -1133,7 +1140,7 @@ a.button {
   top: -2px;
   border: 1px solid #666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003337}}
 #content form input[type=text]:focus,
 #content form input[type=password]:focus,
 #content form select:focus,
@@ -1144,7 +1151,7 @@ a.button {
   -webkit-transition: all 0.15s linear;
   transition: all 0.15s linear;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003342}}
 #content form input[type=text][disabled],
 #content form input[type=password][disabled],
 #content form select[disabled],
@@ -1154,30 +1161,30 @@ a.button {
   color: #888;
   border-color: #999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003350}}
 #content form textarea {
   resize: vertical;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003354}}
 #content form input[type=checkbox] {
   margin-top: 3px;
   margin-bottom: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003359}}
 #content form #buttonHolder,
 #content form #button-holder {
   margin: 0;
 }
 
 /* Fin Forms */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003377}}
 iframe {
   border: 0;
   max-width: 100%;
 }
 
 @media screen and (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003383}}
   .columnas2 {
     -moz-column-count: 2;
     -webkit-column-count: 2;
@@ -1186,7 +1193,7 @@ iframe {
 }
 
 @media screen and (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003389}}
   .columnas3 {
     -moz-column-count: 3;
     -webkit-column-count: 3;
@@ -1194,39 +1201,39 @@ iframe {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003395}}
 .icon {
   display: inline-block;
   height: 25px;
   width: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003401}}
 .hide {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003405}}
 #content .noBullets {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003411}}
 #content blockquote {
   border-left: 5px solid #292529;
   margin: 0 0 1.5em;
   padding: 0.714286em 1.428571em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003411}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003417}}
 .figure-caption {
   color: #796e79;
   font-size: 90%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003416}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003422}}
 .aparte {
   clear: both;
 }

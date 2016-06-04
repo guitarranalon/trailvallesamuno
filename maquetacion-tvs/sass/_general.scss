@@ -223,6 +223,12 @@ ol.listaLetras li{
 		max-width: 31.1040339%;
 		height:auto;
 	}
+
+	&.estrecha{
+		@include mq($screen-sm-min){
+		max-width: anchoPorcentaje(213);
+		}
+	}
 }
 
 #content .mapaIzquierda small a,
