@@ -5,6 +5,20 @@ title: "Colaboradores - "
 <div id="content">
 	<div class="row">
 		<h2>Colaboradores</h2>
-		<p>Próximamente se publicará la lista de colaboradores de la carrera.</p>
+		<ul class="patrocinadores">
+			<% data.colaboradores.empresas.each do |colaborador| %>
+				<li>
+					<% if colaborador.link.nil? || colaborador.link.empty? %>
+						<span>
+							<img src="../images/colaboradores/<%= colaborador.image %>" alt="<%= colaborador.name %>" />
+						</span>
+					<% else %>
+						<a href="<%= colaborador.link %>" title="<%= colaborador.linktitle %>">
+							<img src="../images/colaboradores/<%= colaborador.image %>" alt="<%= colaborador.name %>" />
+						</a>
+					<% end %>
+				</li>
+			<% end %>
+		</ul>
 	</div>
 </div>
