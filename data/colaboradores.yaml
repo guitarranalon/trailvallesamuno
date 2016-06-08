@@ -7,4 +7,8 @@ empresas:
   - name: Archivo Histórico de Hunosa Pozu Fondón
     image: archivoHistoricoHunosa.png
     link: ""
-    linktitle: ""    
+    linktitle: ""  
+  - name: Garaje Salamanca
+    image: garajeSalamanca.png
+    link: http://www.garajesalamanca.es/
+    linktitle: Ir a la web del Garaje Salamanca
