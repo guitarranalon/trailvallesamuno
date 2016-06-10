@@ -255,4 +255,30 @@
 #content .svg-container{
 	background: $colorTema;
 }
+
+.carrera_roadbook #content > .row{
+	position: relative;
+}
+
+#content #info{
+	background: rgba(#000, .4);
+	color: #fff;
+	left: 0;
+	padding: .5em;
+	position: absolute;
+	right: 0;
+
+	@include mq($screen-sm-plus-min){
+		@include box-sizing(border-box);
+
+		padding: 1em;
+		width: anchoPorcentaje(294);
+	}
+}
+
+#content form #draw{
+	@include mq($screen-sm-plus-min){
+		width: anchoPorcentaje(213);
+	}
+}
 // FIN Roadbook

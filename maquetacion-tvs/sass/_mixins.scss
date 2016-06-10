@@ -78,13 +78,6 @@
 	border-collapse: separate;	
 }
 
-/* Ancho de los contenidos */
-%row{
-	width:$anchoTotalPX / $fontSizeBasico * 1em;
-	margin:0 auto;
-}
-
-
 /* Stuart Robson's mobile-first, retro-compatible and 
 	manteinable	media query mixin 
 
@@ -144,6 +137,16 @@ $is-hidpi: "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio:
   -webkit-text-size-adjust: $value; 
   //-moz-text-size-adjust: $value; --> Comentada esta línea para que el resultado sea idéntico a normalize.css de Bootstrap
   -ms-text-size-adjust: $value; 
+}
+
+/* Ancho de los contenidos */
+%row{
+	margin: 0 2em;
+
+	@include mq($screen-md-min){
+		margin: 0 auto;
+		width: sizeEM(942);
+	}
 }
 
 // ------------- Mixins menú

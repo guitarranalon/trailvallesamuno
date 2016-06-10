@@ -17,12 +17,7 @@ html body{
 }
 
 .row{
-	margin: 0 2em;
-
-	@include mq($screen-md-min){
-		margin: 0 auto;
-		width: sizeEM(942);
-	}
+	@extend %row;
 }
 
 body #contenedor{
