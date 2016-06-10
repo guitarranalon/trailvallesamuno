@@ -23,5 +23,11 @@
     <%= yield %>
 	<%= partial "layouts/partials/footer" %>
   <%= partial "layouts/partials/footerScripts" %>
+
+  <% if !current_page.data.localScript.nil? && !current_page.data.localScript.empty? %>
+    <script>
+      <%= current_page.data.localScript %>
+    </script>
+  <% end %>
   </body>
 </html>

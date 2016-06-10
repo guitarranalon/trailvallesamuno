@@ -1410,6 +1410,129 @@ return b?(parseFloat(Sa(a,"marginLeft"))||(n.contains(a.ownerDocument,a)?a.getBo
 
 }(jQuery));
 
+!function(n,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t(n.ease={})}(this,function(n){"use strict";function t(n,t){return null==n||isNaN(n)?t:+n}function u(n,u){n=Math.max(1,t(n,1)),u=t(u,.3)*A;var i=u*Math.asin(1/n);return function(t){return n*Math.pow(2,10*--t)*Math.sin((i-t)/u)}}function i(n,u){n=Math.max(1,t(n,1)),u=t(u,.3)*A;var i=u*Math.asin(1/n);return function(t){return n*Math.pow(2,-10*t)*Math.sin((t-i)/u)+1}}function r(n,u){n=Math.max(1,t(n,1)),u=1.5*t(u,.3)*A;var i=u*Math.asin(1/n);return function(t){return n*((t=2*t-1)<0?Math.pow(2,10*t)*Math.sin((i-t)/u):Math.pow(2,-10*t)*Math.sin((t-i)/u)+2)/2}}function o(n){return n=t(n,1.70158),function(t){return t*t*((n+1)*t-n)}}function e(n){return n=t(n,1.70158),function(t){return--t*t*((n+1)*t+n)+1}}function c(n){return n=1.525*t(n,1.70158),function(t){return((t*=2)<1?t*t*((n+1)*t-n):(t-=2)*t*((n+1)*t+n)+2)/2}}function a(n){return 1-f(1-n)}function f(n){return B>n?L*n*n:D>n?L*(n-=C)*n+E:G>n?L*(n-=F)*n+H:L*(n-=J)*n+K}function h(n){return((n*=2)<=1?1-f(1-n):f(n-1)+1)/2}function s(n){return 1-Math.sqrt(1-n*n)}function M(n){return Math.sqrt(1- --n*n)}function p(n){return((n*=2)<=1?1-Math.sqrt(1-n*n):Math.sqrt(1-(n-=2)*n)+1)/2}function l(n){return Math.pow(2,10*n-10)}function w(n){return 1-Math.pow(2,-10*n)}function b(n){return((n*=2)<=1?Math.pow(2,10*n-10):2-Math.pow(2,10-10*n))/2}function d(n){return 1-Math.cos(n*R)}function y(n){return Math.sin(n*R)}function x(n){return(1-Math.cos(Q*n))/2}function q(n){return n*n*n}function k(n){return--n*n*n+1}function m(n){return((n*=2)<=1?n*n*n:(n-=2)*n*n+2)/2}function v(n){return n*n}function P(n){return n*(2-n)}function O(n){return((n*=2)<=1?n*n:--n*(2-n)+1)/2}function g(n){return+n}function I(n){return n=t(n,3),function(t){return Math.pow(t,n)}}function N(n){return n=t(n,3),function(t){return 1-Math.pow(1-t,n)}}function j(n){return n=t(n,3),function(t){return((t*=2)<=1?Math.pow(t,n):2-Math.pow(2-t,n))/2}}function z(n,t,u){var i=(n+="").indexOf("-");return 0>i&&(n+="-in"),arguments.length>1&&T.hasOwnProperty(n)?T[n](t,u):S.hasOwnProperty(n)?S[n]:g}var A=1/(2*Math.PI),B=4/11,C=6/11,D=8/11,E=.75,F=9/11,G=10/11,H=.9375,J=21/22,K=63/64,L=1/B/B,Q=Math.PI,R=Q/2,S={"linear-in":g,"linear-out":g,"linear-in-out":g,"quad-in":v,"quad-out":P,"quad-in-out":O,"cubic-in":q,"cubic-out":k,"cubic-in-out":m,"poly-in":q,"poly-out":k,"poly-in-out":m,"sin-in":d,"sin-out":y,"sin-in-out":x,"exp-in":l,"exp-out":w,"exp-in-out":b,"circle-in":s,"circle-out":M,"circle-in-out":p,"bounce-in":a,"bounce-out":f,"bounce-in-out":h,"back-in":o(),"back-out":e(),"back-in-out":c(),"elastic-in":u(),"elastic-out":i(),"elastic-in-out":r()},T={"poly-in":I,"poly-out":N,"poly-in-out":j,"back-in":o,"back-out":e,"back-in-out":c,"elastic-in":u,"elastic-out":i,"elastic-in-out":r};n.ease=z});
+/**
+ * segment - A little JavaScript class (without dependencies) to draw and animate SVG path strokes
+ * @version v1.0.8
+ * @link https://github.com/lmgonzalves/segment
+ * @license MIT
+ */
+function Segment(i,e,t,n){this.path=i,this.length=i.getTotalLength(),this.path.style.strokeDashoffset=2*this.length,this.begin="undefined"!=typeof e?this.valueOf(e):0,this.end="undefined"!=typeof t?this.valueOf(t):this.length,this.circular="undefined"!==n?n:!1,this.timer=null,this.animationTimer=null,this.draw(this.begin,this.end,0,{circular:this.circular})}!function(){for(var i=0,e=["ms","moz","webkit","o"],t=0;t<e.length&&!window.requestAnimationFrame;++t)window.requestAnimationFrame=window[e[t]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[e[t]+"CancelAnimationFrame"]||window[e[t]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(e){var t=(new Date).getTime(),n=Math.max(0,16-(t-i)),s=window.setTimeout(function(){e(t+n)},n);return i=t+n,s}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(i){clearTimeout(i)})}(),Segment.prototype={draw:function(i,e,t,n){if(this.circular=n&&n.hasOwnProperty("circular")?n.circular:!1,t){var s=n&&n.hasOwnProperty("delay")?1e3*parseFloat(n.delay):0,h=n&&n.hasOwnProperty("easing")?n.easing:null,r=n&&n.hasOwnProperty("callback")?n.callback:null,a=this;if(this.stop(),s)return delete n.delay,this.timer=setTimeout(function(){a.draw(i,e,t,n)},s),this.timer;var l=new Date,o=this.begin,g=this.end,c=this.valueOf(i),u=this.valueOf(e);!function d(){var i=new Date,e=(i-l)/1e3,n=e/parseFloat(t),s=n;return"function"==typeof h&&(s=h(s)),n>1?s=1:a.animationTimer=window.requestAnimationFrame(d),a.begin=o+(c-o)*s,a.end=g+(u-g)*s,a.begin=a.begin<0&&!a.circular?0:a.begin,a.begin=a.begin>a.length&&!a.circular?a.length:a.begin,a.end=a.end<0&&!a.circular?0:a.end,a.end=a.end>a.length&&!a.circular?a.length:a.end,a.end-a.begin<=a.length&&a.end-a.begin>0?a.draw(a.begin,a.end,0,{circular:a.circular}):a.circular&&a.end-a.begin>a.length?a.draw(0,a.length,0,{circular:a.circular}):a.draw(a.begin+(a.end-a.begin),a.end-(a.end-a.begin),0,{circular:a.circular}),n>1&&"function"==typeof r?r.call(a):void 0}()}else this.path.style.strokeDasharray=this.strokeDasharray(i,e)},strokeDasharray:function(i,e){if(this.begin=this.valueOf(i),this.end=this.valueOf(e),this.circular){var t=this.begin>this.end||this.begin<0&&this.begin<-1*this.length?parseInt(this.begin/parseInt(this.length)):parseInt(this.end/parseInt(this.length));0!==t&&(this.begin=this.begin-this.length*t,this.end=this.end-this.length*t)}if(this.end>this.length){var n=this.end-this.length;return[this.length,this.length,n,this.begin-n,this.end-this.begin].join(" ")}if(this.begin<0){var s=this.length+this.begin;return this.end<0?[this.length,this.length+this.begin,this.end-this.begin,s-this.end,this.end-this.begin,this.length].join(" "):[this.length,this.length+this.begin,this.end-this.begin,s-this.end,this.length].join(" ")}return[this.length,this.length+this.begin,this.end-this.begin].join(" ")},valueOf:function(i){var e=parseFloat(i);if(("string"==typeof i||i instanceof String)&&~i.indexOf("%")){var t;~i.indexOf("+")?(t=i.split("+"),e=this.percent(t[0])+parseFloat(t[1])):~i.indexOf("-")?(t=i.split("-"),e=3===t.length?-this.percent(t[1])-parseFloat(t[2]):t[0]?this.percent(t[0])-parseFloat(t[1]):-this.percent(t[1])):e=this.percent(i)}return e},stop:function(){window.cancelAnimationFrame(this.animationTimer),this.animationTimer=null,clearTimeout(this.timer),this.timer=null},percent:function(i){return parseFloat(i)/100*this.length}};
+var runRoadbook = function(){
+	var roadbook = {
+		points:[
+			{
+				km: 0,
+				kmReal: 0,
+				note: 'Salida/Meta'
+			},
+			{
+				km: 0.8,
+				kmReal: 0.8,
+				note: 'Inicio Senda de los Molinos: empedrado y puentes resbaladizos en caso de lluvia'
+			},
+			{
+				km: 1.6,
+				kmReal: 1.8,
+				note: 'Empieza la subida'
+			},
+			{
+				km: 2.5,
+				kmReal: 2.5,
+				note: 'Casas de abajo de El Tendeyón'
+			},
+			{
+				km: 3.3,
+				kmReal: 3.5,
+				note: 'Casas de arriba de El Tendeyón: ¡Atención! 0,5 km de asfalto'
+			},
+			{
+				km: 3.5,
+				kmReal: 3.9,
+				note: 'Fin del tramo de asfalto'
+			},
+			{
+				km: 6,
+				kmReal: 5.9,
+				note: 'Pico Espines (1.008 m)'
+			},
+			{
+				km: 6.3,
+				kmReal: 6.4,
+				note: 'Mayáu Porrín: avituallamiento líquido'
+			},
+			{
+				km: 7.2,
+				kmReal: 7.2,
+				note: 'Pico Cogollu (1.021 m): techo de la prueba y del concejo de Langreo. Contínuo sube y baja hasta el Alto Urbiés'
+			},
+			{
+				km: 10,
+				kmReal: 10.4,
+				note: 'Alto Urbiés o Alto la Mozquita: cruce de carretera LA-7. ¡Empieza una dura subida!'
+			},
+			{
+				km: 10.4,
+				kmReal: 10.9,
+				note: 'Pico las Cruces (955 m). Sube y baja contínuo hasta el Mayáu Miguel'
+			},
+			{
+				km: 12.5,
+				kmReal: 13,
+				note: 'Mayáu Miguel (860 m): avituallamiento sólido/líquido. ¡Empieza la primera bajada importante!'
+			},
+			{
+				km: 16.8,
+				kmReal: 17.6,
+				note: '¡Atención! Cruce de la carretera LA-8'
+			},
+			{
+				km: 18.1,
+				kmReal: 18.7,
+				note: 'Pico Rondiz (734 m): avituallamiento líquido. ¡Empieza la última bajada!'
+			},
+			{
+				km: 20.1,
+				kmReal: 21.1,
+				note: 'El Fresnedal, cruce de la carretera LA-8'
+			},
+			{
+				km: 20.8,
+				kmReal: 21.8,
+				note: 'Túnel: entrada por el socavón Emilia a la galería del Ecomuseo'
+			},
+			{
+				km: 22.6,
+				kmReal: 22.6,
+				note: 'Meta'
+			}
+		]
+	};
+
+	(function(){
+		var i = 0,
+			kmTotal = 22;
+
+		var path = document.getElementById('path'),
+			segment = new Segment(path, "0", "100%", true),
+			draw = document.getElementById('draw'),
+			infoPanel = document.getElementById('info');
+			
+		segment.draw(0, 0, 0, "cubic-out");
+		infoPanel.innerHTML  = roadbook.points[i].note;	
+		
+		draw.onclick = function(e){
+			e.preventDefault();
+			
+			if (i < roadbook.points.length-1){
+				i++;
+				segment.draw("0", roadbook.points[i].km*100/kmTotal +"%", ((roadbook.points[i].km-roadbook.points[i-1].km)/2), "cubic-out");
+				infoPanel.innerHTML  = '<b>km ' + roadbook.points[i].kmReal + ":</b> " + roadbook.points[i].note;	
+			}
+		};
+
+	})();
+};
 svg4everybody();
 
 $("#header").find('.row').mobileMenu("#main-nav");

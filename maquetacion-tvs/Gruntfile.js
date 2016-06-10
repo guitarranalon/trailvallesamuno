@@ -84,6 +84,9 @@ module.exports = function(grunt) {
 		  		'javascripts/desarrollo/jquery.scrollUp.js',
 				'javascripts/desarrollo/featherlight.js',
 				'javascripts/desarrollo/featherlight.gallery.js',
+				'javascripts/desarrollo/ease.min.js',
+				'javascripts/desarrollo/segment.min.js',
+				'javascripts/desarrollo/roadbook.js',
 		  		'javascripts/desarrollo/invocations.js',
 		  		'javascripts/desarrollo/analytics.js'
 		  	],

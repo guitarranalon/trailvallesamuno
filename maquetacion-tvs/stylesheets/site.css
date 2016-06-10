@@ -1866,10 +1866,11 @@ header h1 a:hover .icon {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003230}}
-#content .patrocinadores > li > a {
+#content .patrocinadores > li > a,
+#content .patrocinadores > li > span {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003235}}
 #content .patrocinadores > li > a > img {
   -moz-transition: opacity 0.12s ease;
   -o-transition: opacity 0.12s ease;
@@ -1877,7 +1878,7 @@ header h1 a:hover .icon {
   transition: opacity 0.12s ease;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003241}}
 #content .patrocinadores > li > a:hover > img {
   -moz-transition: opacity 0.3s ease;
   -o-transition: opacity 0.3s ease;
@@ -1887,7 +1888,7 @@ header h1 a:hover .icon {
 }
 
 @media screen and (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003248}}
   #content .patrocinadores:after {
     clear: both;
     content: ".";
@@ -1895,6 +1896,11 @@ header h1 a:hover .icon {
     height: 0;
     visibility: hidden;
   }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_contenido\.scss}line{font-family:\00003255}}
+#content .svg-container {
+  background: #E9BF1B;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_pie\.scss}line{font-family:\000031}}
