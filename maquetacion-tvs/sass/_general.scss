@@ -179,6 +179,11 @@ ol.listaLetras li{
 	}
 }
 
+#content b{
+	font-family: $fontFamilyBold;
+	font-weight: normal;
+}
+
 #content img{
 	max-width:100%;
 	height:auto;
