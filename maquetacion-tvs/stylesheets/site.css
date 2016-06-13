@@ -1244,6 +1244,15 @@ iframe {
   clear: both;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_general\.scss}line{font-family:\00003426}}
+.creditos > p,
+#content .creditos > p a {
+  font-size: 12px;
+  font-size: 0.857143rem;
+  color: #777;
+  text-decoration: none;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\000031}}
 #header {
   background: #E9BF1B;

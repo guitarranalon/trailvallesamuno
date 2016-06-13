@@ -422,3 +422,11 @@ iframe{
 .aparte{
 	clear: both;
 }
+
+.creditos > p,
+#content .creditos > p a{
+	@include font-size(12);
+
+	color: #777;
+	text-decoration: none;
+}
