@@ -12,3 +12,7 @@ empresas:
     image: garajeSalamanca.png
     link: http://www.garajesalamanca.es/
     linktitle: Ir a la web del Garaje Salamanca
+  - name: Physiorelax
+    image: physiorelax.png
+    link: http://www.physiorelaxforte.com/
+    linktitle: Ir a la web de Physiorelax    

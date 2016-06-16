@@ -12,10 +12,6 @@ empresas:
     image: toyota.png
     link: http://www.toyotaoviedo.toyota.es/
     linktitle: Ir a la web de Toyota Oviedo  
-  - name: Caja Rural de Asturias
-    image: cajaRural.png
-    link: http://www.cajaruraldeasturias.com/
-    linktitle: Ir a la web de la Caja Rural de Asturias 
   - name: Área de Deportes del Ayuntamiento de Langreo
     image: areaDeportesLangreo.png
     link: http://www.langreo.as/ayuntamiento_es/delegaciones/deportes/
@@ -28,7 +24,4 @@ empresas:
     image: aFuego.jpg
     link: https://www.facebook.com/A-Fuego-Solorunners-183400788510733/
     linktitle: Ir a la web de la tienda deportiva a Fuego
-  - name: Physiorelax
-    image: physiorelax.png
-    link: http://www.physiorelaxforte.com/
-    linktitle: Ir a la web de Physiorelax   
+ 
