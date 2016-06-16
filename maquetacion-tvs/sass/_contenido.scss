@@ -232,7 +232,8 @@
 		display: block;
 	}
 
-	> li > a > img{
+	> li > a > img,
+	> li > span > img{
 		@include transition(opacity $animacionRapida ease);
 
 		vertical-align: top;
