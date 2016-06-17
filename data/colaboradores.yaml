@@ -31,4 +31,8 @@ empresas:
   - name: Mieles y licores Vayú
     image: vayu.png
     link: http://www.miellicoresvayu.com/
-    linktitle: Ir a la web de Mieles y licores Vayú       
+    linktitle: Ir a la web de Mieles y licores Vayú
+  - name: Carrocerías Osuna
+    image: osuna.png
+    link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
+    linktitle: Ir a la web de Carrocerías Osuna 
