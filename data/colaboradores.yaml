@@ -35,4 +35,8 @@ empresas:
   - name: Carrocerías Osuna
     image: osuna.png
     link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
-    linktitle: Ir a la web de Carrocerías Osuna 
+    linktitle: Ir a la web de Carrocerías Osuna
+  - name: Café Scala 9
+    image: scala9.png
+    link: https://www.facebook.com/pages/Scala-9/130073103722791
+    linktitle: Ir a la web del Café Scala 9    
