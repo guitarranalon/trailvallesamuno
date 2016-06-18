@@ -5,6 +5,11 @@
 				<%= home_link("images/map.svg", "tvs-logo", "logo-tvs") %>
 				<%= current_page.data.title || "Trail Valle de Samuño" %>
 			</h1>
+			<% if current_page.path != 'index.html' %>
+			<div class="nombreCarrera">
+				Trail Valle de Samuño - Clínica Nalón Dental
+			</div>
+			<% end %>
 			<nav id="main-nav">
 				<ul>
 				<% data.tree.pages.each do |page| %>

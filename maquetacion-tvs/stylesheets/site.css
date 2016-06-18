@@ -1263,7 +1263,7 @@ iframe {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\000031}}
   #header {
     height: 5.357143em;
-    margin-bottom: 19.285714em;
+    margin-bottom: 16.428571em;
     padding-bottom: 0;
   }
 }
@@ -1277,13 +1277,13 @@ iframe {
 @media screen and (min-width: 55.625em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000319}}
   #header:after {
-    background: #E9BF1B url(../images/fondoCabeceraPortada.jpg) no-repeat 50% 50%;
+    background: #E9BF1B url(../images/fondoCabeceraInteriores.jpg) no-repeat 50% 50%;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
     content: ' ';
-    height: 14.285714em;
+    height: 11.428571em;
     left: 0;
     position: absolute;
     right: 0;
@@ -1297,12 +1297,23 @@ iframe {
   }
 }
 
+@media screen and (min-width: 55.625em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000338}}
+  .index #header:after {
+    background: #E9BF1B url(../images/fondoCabeceraPortada.jpg) no-repeat 50% 50%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000345}}
 header h1 {
   padding-top: 28px;
 }
 @media screen and (min-width: 55.625em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000345}}
   header h1 {
     background: #292529;
     padding-top: 0;
@@ -1312,7 +1323,7 @@ header h1 {
     z-index: 100;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000359}}
 header h1 .icon {
   -moz-transition: -moz-transform 0.3s ease;
   -o-transition: -o-transform 0.3s ease;
@@ -1325,7 +1336,7 @@ header h1 .icon {
   width: 170px;
 }
 @media screen and (min-width: 55.625em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000359}}
   header h1 .icon {
     fill: #E9BF1B;
     height: 142px;
@@ -1335,7 +1346,7 @@ header h1 .icon {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000380}}
 header h1 a:hover .icon {
   -moz-transform: scale(1.39) translatey(3px);
   -ms-transform: scale(1.39) translatey(3px);
@@ -1348,7 +1359,7 @@ header h1 a:hover .icon {
 }
 
 @media screen and (min-width: 55.625em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000387}}
   header .enlaceBoton {
     font-size: 15px;
     font-size: 1.071429rem;
@@ -1363,9 +1374,32 @@ header h1 a:hover .icon {
 }
 
 @media screen and (min-width: 55.625em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\00003103}}
   #header .row {
     position: relative;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\00003109}}
+#header .nombreCarrera {
+  font-size: 24px;
+  font-size: 1.714286rem;
+  font-family: montserrat;
+  line-height: 1.1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+@media screen and (min-width: 55.625em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_cabecera\.scss}line{font-family:\00003109}}
+  #header .nombreCarrera {
+    font-size: 32px;
+    font-size: 2.285714rem;
+    color: #fff;
+    left: 17.197452%;
+    position: absolute;
+    text-align: left;
+    top: 4.625em;
+    z-index: 1;
   }
 }
 

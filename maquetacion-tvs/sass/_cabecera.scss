@@ -5,7 +5,7 @@
 
 	@include mq($screen-sm-plus-min){
 		height: sizeEM(75);
-		margin-bottom: sizeEM(270);
+		margin-bottom: sizeEM(230);
 		padding-bottom: 0;
 	}	
 
@@ -18,10 +18,10 @@
 
 #header:after{
 	@include mq($screen-sm-plus-min){
-		background: $colorTema url(#{$img-root}/fondoCabeceraPortada.jpg) no-repeat 50% 50%;
+		background: $colorTema url(#{$img-root}/fondoCabeceraInteriores.jpg) no-repeat 50% 50%;
 		@include background-size(cover);
 		content: ' ';
-		height: sizeEM(200);
+		height: sizeEM(160);
 		left: 0;
 		position: absolute;
 		right: 0;
@@ -32,6 +32,13 @@
 		@include mq($screen-sm-plus-min){
 			height: sizeEM(380);
 		}
+	}
+}
+
+.index #header:after{
+	@include mq($screen-sm-plus-min){
+		background: $colorTema url(#{$img-root}/fondoCabeceraPortada.jpg) no-repeat 50% 50%;
+		@include background-size(cover);
 	}
 }
 
@@ -96,5 +103,25 @@ header .enlaceBoton{
 #header .row{
 	@include mq($screen-sm-plus-min){
 		position: relative;
+	}
+}
+
+#header .nombreCarrera{
+	@include font-size(24);
+
+	font-family: montserrat;
+	line-height: 1.1em;
+	margin-bottom: sizeEM(24, 24);
+	text-align: center;
+
+	@include mq($screen-sm-plus-min){
+		@include font-size(32);
+
+		color: #fff;
+		left: anchoPorcentaje(162);
+		position: absolute;
+		text-align: left;
+		top: sizeEM(148, 32);
+		z-index: 1;
 	}
 }
