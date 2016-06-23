@@ -76,7 +76,7 @@ module.exports = function(grunt) {
 	concat: {
 		dist: {
 		  src: [
-		  		'javascripts/desarrollo/jquery-1.12.3.min.js', 
+		  		'javascripts/desarrollo/jquery-1.12.3.min.js',
 		  		'javascripts/desarrollo/svg4everybody.js',
 		  		'javascripts/desarrollo/jquery.menu-aim.js',
 		  		'javascripts/desarrollo/tvs.jquery.menu-aim-call.js',
@@ -87,8 +87,10 @@ module.exports = function(grunt) {
 				'javascripts/desarrollo/ease.min.js',
 				'javascripts/desarrollo/segment.min.js',
 				'javascripts/desarrollo/roadbook.js',
+		  		'javascripts/desarrollo/analytics.js',
+		  		'javascripts/desarrollo/docCookies.js',
+				'javascripts/desarrollo/cookiesWarning.js',
 		  		'javascripts/desarrollo/invocations.js',
-		  		'javascripts/desarrollo/analytics.js'
 		  	],
 		  dest: 'javascripts/all.js',
 		  nonull: true,

@@ -2463,3 +2463,32 @@ body #scrollUp:focus {
     font-size: 40px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/plugins\/_cookiesWarning\.scss}line{font-family:\000031}}
+.cookiesWarning {
+  font-size: 12px;
+  font-size: 0.857143rem;
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  line-height: 1.5em;
+  padding: 1.166667em 0;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/plugins\/_cookiesWarning\.scss}line{font-family:\0000314}}
+.cookiesWarning a {
+  color: #E9BF1B;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/plugins\/_cookiesWarning\.scss}line{font-family:\0000318}}
+.cookiesWarning .row {
+  margin: 0 2.333333em;
+}
+@media screen and (min-width: 62em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/plugins\/_cookiesWarning\.scss}line{font-family:\0000318}}
+  .cookiesWarning .row {
+    margin: 0 auto;
+    width: 78.5em;
+  }
+}
