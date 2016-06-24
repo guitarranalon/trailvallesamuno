@@ -4,7 +4,7 @@
 	var text = 'Uso de cookies: utilizamos cookies de terceros para elaborar información estadística y para recabar información geográfica. Si continúa navegando acepta su uso. ';
 
 	var prepareBlock = function(urlDetalle){
-		text += '<a href="' + urlDetalle + '" title="Ver más detalles">Más información y cambio de configuración</a>';
+		text += '<a href="' + window.location.protocol + '//' + window.location.host + '/' + urlDetalle + '" title="Ver más detalles">Más información y cambio de configuración</a>';
 		text = '<div class="cookiesWarning"><div class="row">' + text + '</div></div>';
 
 		return $(text);
