@@ -25,9 +25,7 @@
   <%= partial "layouts/partials/footerScripts" %>
 
   <% if !current_page.data.localScript.nil? && !current_page.data.localScript.empty? %>
-    <script>
-      <%= current_page.data.localScript %>
-    </script>
+    <%= current_page.data.localScript %>
   <% end %>
   </body>
 </html>
