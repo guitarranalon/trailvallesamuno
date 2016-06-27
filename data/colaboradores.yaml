@@ -39,4 +39,8 @@ empresas:
   - name: Café Scala 9
     image: scala9.png
     link: https://www.facebook.com/pages/Scala-9/130073103722791
-    linktitle: Ir a la web del Café Scala 9    
+    linktitle: Ir a la web del Café Scala 9
+  - name: Sabai Terapias Naturales
+    image: sabai.png
+    link: http://sabaiterapiasnaturales.com/
+    linktitle: Ir a la web de Sabai Terapias Naturales
