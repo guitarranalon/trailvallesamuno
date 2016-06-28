@@ -23,6 +23,9 @@ pages:
     - name: Programa
       path: carrera/programa.html
       title: Ir al programa de la prueba
+    - name: Voluntarios
+      path: carrera/voluntarios.html
+      title: Ir a la página de inscripción como voluntario/a
   - name: Colaboradores
     path: "#"
     title: "Colaboradores de la prueba"
