@@ -90,6 +90,8 @@ module.exports = function(grunt) {
 		  		'javascripts/desarrollo/analytics.js',
 		  		'javascripts/desarrollo/docCookies.js',
 				'javascripts/desarrollo/cookiesWarning.js',
+				'javascripts/desarrollo/jquery-scrollspy.js',
+				'javascripts/desarrollo/progressBarsAnimations.js',
 		  		'javascripts/desarrollo/invocations.js',
 		  	],
 		  dest: 'javascripts/all.js',
