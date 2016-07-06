@@ -1,0 +1,25 @@
+#content .galeria{
+	ul{
+		@extend %patrocinadoresGaleria;	
+	}
+	
+	ul:after{
+		@extend %clearfixAfter;
+	}
+			
+	li > figure > a{
+		display: block;
+	}
+	
+	li img{
+		@include transition(opacity $animacionRapida ease);
+		
+		vertical-align: top;
+	}
+	
+	li a:hover img{
+		@include transition(opacity $animacionMedia ease);
+
+		opacity: 0.5;		
+	}
+}
