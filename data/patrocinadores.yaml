@@ -24,4 +24,8 @@ empresas:
     image: aFuego.jpg
     link: https://www.facebook.com/A-Fuego-Solorunners-183400788510733/
     linktitle: Ir a la web de la tienda deportiva a Fuego
+  - name: Caja Rural de Asturias
+    image: cajaRural.png
+    link: http://www.cajaruraldeasturias.com/
+    linktitle: Ir a la web de la Caja Rural de Asturias    
  
