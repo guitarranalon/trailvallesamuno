@@ -48,10 +48,6 @@ empresas:
     image: claraIReboloCastroAbogadas.png
     link: ""
     linktitle: ""
-  - name: Agencia Inmobiliaria Astures
-    image: agenciaAstures.png
-    link: http://www.agenciastures.com/
-    linktitle: Ir a la web de la Agencia Inmobiliaria Astures
   - name: Sidra Natural Alonso
     image: sidraAlonso.png
     link: http://www.llagaralonso.com/
