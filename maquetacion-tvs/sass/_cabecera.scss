@@ -109,7 +109,7 @@ header .enlaceBoton{
 #header .nombreCarrera{
 	@include font-size(24);
 
-	font-family: montserrat;
+	font-family: $fontFamily;
 	line-height: 1.1em;
 	margin-bottom: sizeEM(24, 24);
 	text-align: center;

@@ -1424,7 +1424,7 @@ header h1 a:hover .icon {
 #header .nombreCarrera {
   font-size: 24px;
   font-size: 1.714286rem;
-  font-family: montserrat;
+  font-family: montserratregular, sans-serif;
   line-height: 1.1em;
   margin-bottom: 1em;
   text-align: center;
