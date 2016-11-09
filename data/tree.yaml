@@ -56,9 +56,9 @@ pages:
     - name: Cómo llegar
       path: informacion/comollegar.html
       title: Ir a cómo llegar a la salida
-    - name: Alojamientos
-      path: informacion/alojamientos.html
-      title: Ir a la sección de alojamientos
+    - name: Dónde dormir
+      path: informacion/dondedormir.html
+      title: Ir a la sección Dónde dormir
   - name: Contacto
     path: contacto.html
     title: Ver información de contacto
