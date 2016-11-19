@@ -24,6 +24,7 @@ page '/*.txt', layout: false
 set :relative_links, true
 # Methods defined in the helpers block are available in templates
 helpers do
+ 
   def nav_active(path)
     current_page.path == path ? "active" : ""
   end
@@ -48,11 +49,14 @@ helpers do
   end
 
   def home_link(svgMapPath, svgClass, symbolId)
-    home_path = "index.html"
+	svg_link(svgMapPath, svgClass, symbolId, "Inicio", "index.html", "Ir a la página de inicio")
+  end
+
+  def svg_link(svgMapPath, svgClass, symbolId, self_page_name, self_page_path, self_page_title)
     svg = "<svg class=\"icon #{svgClass}\">
             <use xlink:href=\"" + compute_path("#{svgMapPath}") + "##{symbolId}\"></use>
           </svg>"
-    current_page.path == home_path ? "<span>" + svg + "</span>" : "<a href='" + compute_path("index.html") + "' title='" + "Ir a la página de inicio" + "'>" + svg + "</a>"
+    current_page.path == self_page_path ? "<span>" + svg + self_page_name + "</span>" : "<a href='" + compute_path(self_page_path) + "' title='" + self_page_title + "'>" + svg + self_page_name + "</a>"
   end
 end
 
@@ -73,5 +77,5 @@ configure :build do
   # activate :minify_javascript
   
   activate :relative_assets
-  set :relative_links, true  
+  set :relative_links, true
 end

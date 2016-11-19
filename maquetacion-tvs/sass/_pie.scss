@@ -103,11 +103,7 @@ footer .contact{
 }
 
 footer .social{
-	@include mq($screen-sm-min){
-		position: absolute;
-		right: 0;
-		top: 0;	
-	}	
+	margin-bottom: sizeEM($lineHeightBasico);	
 }
 
 footer .social > ul{
@@ -138,5 +134,23 @@ footer .social > ul{
 		@include transition(fill $animacionRapida ease);
 		
 		fill: #cfcfcf;
+	}
+}
+
+footer .homologacion{
+	@include mq($screen-sm-min){
+		position: absolute;
+		right: 0;
+		top: -15px;	// Para alinear el texto del logo con el de la parte izquierda
+	}
+	
+	a,
+	span{
+		@extend %text-replacement;
+	}
+	
+	.homologada-fempa{
+		height: 102px;
+		width: 213px;
 	}
 }
