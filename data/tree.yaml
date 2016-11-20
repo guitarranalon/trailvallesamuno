@@ -59,6 +59,9 @@ pages:
     - name: Dónde dormir
       path: informacion/dondedormir.html
       title: Ir a la sección Dónde dormir
+    - name: Seguimiento
+      path: informacion/seguimiento.html
+      title: Ir a la sección sobre los mejores puntos para ver pasar la carrera	  
   - name: Contacto
     path: contacto.html
     title: Ver información de contacto
