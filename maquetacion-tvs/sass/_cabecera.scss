@@ -18,7 +18,7 @@
 
 #header:after{
 	@include mq($screen-sm-plus-min){
-		background: $colorTema url(#{$img-root}/fondoCabeceraInteriores.jpg) no-repeat 50% 50%;
+		background: $colorTema url(#{$img-root}/fondoCabeceraPortada.jpg) no-repeat 50% 40%;	
 		@include background-size(cover);
 		content: ' ';
 		height: sizeEM(160);
@@ -37,8 +37,9 @@
 
 .index #header:after{
 	@include mq($screen-sm-plus-min){
-		background: $colorTema url(#{$img-root}/fondoCabeceraPortada.jpg) no-repeat 50% 50%;
 		@include background-size(cover);
+		
+		background-position: 50% 50%;
 	}
 }
 
