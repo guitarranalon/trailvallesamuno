@@ -1,0 +1,20 @@
+#patrocinadoresFooter{
+	background: #ddd;
+	padding: 4em 0;
+	
+	ul{
+		@extend %patrocinadoresGaleria;
+		
+		margin-bottom: 0;
+	}
+	
+	ul img{
+		mix-blend-mode: multiply;
+	}
+	
+	ul:after{
+		@include mq($screen-sm-min){
+			@include clearfixAfter;
+		}
+	}
+}

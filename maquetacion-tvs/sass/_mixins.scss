@@ -333,4 +333,23 @@ $is-hidpi: "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio:
 			margin-left: 0;
 		}
 	}
+	
+	> li > a,
+	> li > span{
+		display: block;
+	}
+
+	> li > a > img,
+	> li > span > img{
+		@include transition(opacity $animacionRapida ease);
+
+		max-width: 100%;
+		vertical-align: top;
+	}
+
+	> li > a:hover > img{
+		@include transition(opacity $animacionMedia ease);
+
+		opacity: 0.5;
+	}	
 }

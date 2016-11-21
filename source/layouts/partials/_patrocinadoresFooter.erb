@@ -1,0 +1,15 @@
+<% if ((!current_page.path.end_with? "patrocinadores.html") && (!current_page.path.end_with? "colaboradores.html")) %>
+	<div id="patrocinadoresFooter">
+		<div class="row">
+			<ul class="patrocinadores">
+				<% data.patrocinadores.empresas.each do |empresa| %>
+					<li>
+						<a href="<%= empresa.link %>" title="<%= empresa.linktitle %>">
+							<%= image_tag "patrocinadores/"+empresa.image, :alt => empresa.name %>
+						</a>
+					</li>
+				<% end %>
+			</ul>
+		</div>
+	</div>
+<% end %>

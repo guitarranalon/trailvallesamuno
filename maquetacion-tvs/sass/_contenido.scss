@@ -204,24 +204,6 @@
 // Patrocinadores
 #content .patrocinadores{
 	@extend %patrocinadoresGaleria;
-
-	> li > a,
-	> li > span{
-		display: block;
-	}
-
-	> li > a > img,
-	> li > span > img{
-		@include transition(opacity $animacionRapida ease);
-
-		vertical-align: top;
-	}
-
-	> li > a:hover > img{
-		@include transition(opacity $animacionMedia ease);
-
-		opacity: 0.5;
-	}
 }
 
 #content .patrocinadores:after{
