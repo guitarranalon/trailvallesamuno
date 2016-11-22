@@ -2,8 +2,7 @@
 title: Recorrido - Trail Valle de Samuño
 ---
 
-<div id="content">
-	<div class="row">
+<div id="content-block">
 	<h2>Recorrido</h2>
 	<h3>Descripción del recorrido</h3>
 	<h4>Primera parte</h4>
@@ -357,5 +356,4 @@ title: Recorrido - Trail Valle de Samuño
 		</fieldset>
 	</form>
 	</div>
-</div>
 </div>

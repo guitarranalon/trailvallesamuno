@@ -23,6 +23,13 @@ pages:
     - name: Programa
       path: carrera/programa.html
       title: Ir al programa de la prueba
+    - name: Ediciones anteriores
+      path: carrera/edicionesanteriores.html
+      title: Ir a la página sobre ediciones anteriores
+      children:
+      - name: 2016
+        path: carrera/edicionesanteriores/2016.html
+        title: Ir a la página sobre la edición de 2016
     - name: Voluntarios
       path: carrera/voluntarios.html
       title: Ir a la página de inscripción como voluntario/a

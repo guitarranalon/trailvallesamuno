@@ -2,17 +2,15 @@
 title: "Patrocinadores"
 ---
 
-<div id="content">
-	<div class="row">
-		<h2>Patrocinadores</h2>
-		<ul class="patrocinadores">
-			<% data.patrocinadores.empresas.each do |empresa| %>
-				<li>
-					<a href="<%= empresa.link %>" title="<%= empresa.linktitle %>">
-						<img src="../images/patrocinadores/<%= empresa.image %>" alt="<%= empresa.name %>" />
-					</a>
-				</li>
-			<% end %>
-		</ul>
-	</div>
+<div id="content-block">
+	<h2>Patrocinadores</h2>
+	<ul class="patrocinadores">
+		<% data.patrocinadores.empresas.each do |empresa| %>
+			<li>
+				<a href="<%= empresa.link %>" title="<%= empresa.linktitle %>">
+					<img src="../images/patrocinadores/<%= empresa.image %>" alt="<%= empresa.name %>" />
+				</a>
+			</li>
+		<% end %>
+	</ul>
 </div>

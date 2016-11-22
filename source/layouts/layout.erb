@@ -20,10 +20,16 @@
 
   <body class="<%= page_classes %>">
 	<%= partial "layouts/partials/header" %>
-    <%= yield %>
+	
+	<div id="content">
+		<div class="row">
+			<%= partial "layouts/partials/thirdLevelMenu" %>
+			<%= yield %>
+		</div>
+	</div>
 	<%= partial "layouts/partials/patrocinadoresFooter" %>
 	<%= partial "layouts/partials/footer" %>
-  <%= partial "layouts/partials/footerScripts" %>
+    <%= partial "layouts/partials/footerScripts" %>
 
   <% if !current_page.data.localScript.nil? && !current_page.data.localScript.empty? %>
     <%= current_page.data.localScript %>

@@ -1,0 +1,13 @@
+	<%
+		current_children = get_third_level_menu()
+
+		if !(current_children.nil?)
+	%>
+		<nav id="third-level-nav">
+			<ul>
+				<% current_children.each do |child| %>
+					<li class="<%= nav_active(child.path) %>"><%= link_orNot(child) %></li>
+				<% end %>
+			</ul>
+		</nav>
+	<% end %>

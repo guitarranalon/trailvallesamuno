@@ -30,6 +30,12 @@
 	}
 }
 
+// Estilos para las franjas de la portada
+.index #content > .row{
+	margin: 0;
+	width: 100%;
+}
+
 #content .excerpt.alt{
 	background: $colorTema url(#{$img-root}/curvasNivel.svg) no-repeat 50% 50%;
 	@include background-size(cover);

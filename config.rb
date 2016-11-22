@@ -45,7 +45,7 @@ helpers do
   end
   
   def link_orNot(page)
-	  current_page.path == page.path ? "<span>" + page.name + "</span>" : "<a href='" + compute_path(page.path) + "' title='" + page.title + "'>" + page.name + "</a>"
+	  current_page.path == page.path ? "<span>#{page.name}</span>" : "<a href=\"#{compute_path(page.path)}\" title=\"#{page.title}\">#{page.name}</a>"
   end
 
   def home_link(svgMapPath, svgClass, symbolId)
@@ -58,6 +58,46 @@ helpers do
           </svg>"
     current_page.path == self_page_path ? "<span>" + svg + self_page_name + "</span>" : "<a href='" + compute_path(self_page_path) + "' title='" + self_page_title + "'>" + svg + self_page_name + "</a>"
   end
+  
+  def get_third_level_menu()
+    data.tree.pages.each do |page|
+	  result = get_page_children(page, nil, 3)
+	  
+	  if !(result.nil?)
+	    return result
+	  end
+	end
+	return nil
+  end
+  
+	def get_page_children(page, parent_page, level)
+		result = nil
+
+		if (current_page.path == page.path)
+			if level == 1
+				return parent_page.children
+			end
+			if page.children
+				# print current_page.path + " MISMA PÁGINA Y TIENE HIJOS\n"
+				return page.children
+			else
+				return nil
+			end		
+		else
+			if page.children
+				page.children.each do |childPage|
+					result = get_page_children(childPage, page, level-1)
+					
+					if (result != nil)
+						return result
+					end
+				end
+				return nil
+			else
+			  return nil
+			end
+		end
+	end
 end
 
 configure :development do
