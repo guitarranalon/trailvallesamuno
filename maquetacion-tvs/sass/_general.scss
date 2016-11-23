@@ -26,6 +26,7 @@ body #contenedor{
 
 #content p{
 	margin-bottom:$lineHeightBasico/$fontSizeBasico*1em;
+	margin-top: 0;
 }
 
 /* quitar estilos de base.css */
@@ -383,7 +384,12 @@ a.enlaceBoton.alt{
 // Estilos generales para los iframes
 iframe{
 	border: 0;
+	margin-bottom: sizeEM($lineHeightBasico);
 	max-width: 100%;
+
+	+iframe{
+		margin-top: sizeEM(2*$lineHeightBasico);
+	}
 }
 
 // Estilos para contenido a 2 y 3 columnas
