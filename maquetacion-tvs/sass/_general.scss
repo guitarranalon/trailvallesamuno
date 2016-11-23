@@ -231,6 +231,13 @@ ol.listaLetras li{
 	}
 }
 
+#content .fotoIzquierda.no-float,
+#content .fotoDerecha.no-float{
+	@include mq($screen-sm-min){
+		float: none;
+	}
+}
+
 #content .mapaIzquierda small a,
 #content .mapaDerecha small a,
 #content .mapaCentro small a{
