@@ -1,8 +1,14 @@
 #third-level-nav{
-	background: adjust-color($colorTema, $saturation:-40, $lightness: 35);
-	border-bottom: 4px solid $colorFuente;
+	@include box-sizing(border-box);
+
+	background: $colorTema;//adjust-color($colorTema, $saturation:-40, $lightness: 35);
 	padding: 1.5em;
 	margin-bottom: sizeEM($lineHeightBasico);
+
+	@include mq($screen-sm-min){
+		float: left;
+		width: anchoPorcentaje(213);
+	}
 	
 	ul{
 		margin: 0;
@@ -10,5 +16,27 @@
 	
 	ul li{
 		list-style: none;
+	}
+
+	ul a{
+		@include font-size(16);
+
+		text-decoration: none;
+
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+
+	ul .active span{
+		@include font-size(16);
+		
+		font-family: $fontFamilyBold;		
+	}
+}
+
+#third-level-nav + #content-block{
+	@include mq($screen-sm-min){
+		margin-left: anchoPorcentaje(213 + 30);
 	}
 }

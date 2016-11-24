@@ -154,7 +154,7 @@ $is-hidpi: "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio:
 	@include transition(width $animacionMedia ease);
 	background: $colorFuente;
 	bottom: -1em;
-	content: " ";
+	content: "";
 	display: block;
 	height: 4px;
 	position: relative;
