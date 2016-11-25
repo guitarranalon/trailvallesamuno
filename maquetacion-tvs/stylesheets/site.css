@@ -1757,7 +1757,7 @@ header h1 a:hover .icon {
 @media screen and (min-width: 48em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_menuTercerNivel\.scss}line{font-family:\000031}}
   #third-level-nav {
-    float: left;
+    float: right;
     width: 22.611465%;
   }
 }
@@ -1789,7 +1789,7 @@ header h1 a:hover .icon {
 @media screen and (min-width: 48em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/trailvallesamuno\/maquetacion-tvs\/sass\/_menuTercerNivel\.scss}line{font-family:\0000338}}
   #third-level-nav + #content-block {
-    margin-left: 25.796178%;
+    margin-right: 25.796178%;
   }
 }
 

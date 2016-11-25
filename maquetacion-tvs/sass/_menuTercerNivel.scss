@@ -6,7 +6,7 @@
 	margin-bottom: sizeEM($lineHeightBasico);
 
 	@include mq($screen-sm-min){
-		float: left;
+		float: right;
 		width: anchoPorcentaje(213);
 	}
 	
@@ -37,6 +37,6 @@
 
 #third-level-nav + #content-block{
 	@include mq($screen-sm-min){
-		margin-left: anchoPorcentaje(213 + 30);
+		margin-right: anchoPorcentaje(213 + 30);
 	}
 }
