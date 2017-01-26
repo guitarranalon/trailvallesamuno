@@ -1,0 +1,31 @@
+---
+empresas:
+  - name: Clínica Nalón Dental
+    image: clinicaNalonDental.jpg
+    link: http://www.clinicanalondental.com
+    linktitle: Ir a la web de la Clínica Nalón Dental
+  - name: Lexus
+    image: lexus.png
+    link: http://www.lexusauto.es/retailers/lexus-asturias
+    linktitle: Ir a la web de Lexus Asturias
+  - name: Toyota
+    image: toyota.png
+    link: http://www.toyotaoviedo.toyota.es/
+    linktitle: Ir a la web de Toyota Oviedo  
+  - name: Área de Deportes del Ayuntamiento de Langreo
+    image: areaDeportesLangreo.png
+    link: http://www.langreo.as/ayuntamiento_es/delegaciones/deportes/
+    linktitle: Ir a la web del Área de Deportes del Ayuntamiento de Langreo
+  - name: Ecomuseo Minero Valle de Samuño
+    image: ecomuseo.png
+    link: http://www.ecomuseominero.es/
+    linktitle: Ir a la web del Ecomuseo Minero Valle de Samuño
+  - name: A Fuego
+    image: aFuego.jpg
+    link: https://www.facebook.com/A-Fuego-Solorunners-183400788510733/
+    linktitle: Ir a la web de la tienda deportiva a Fuego
+  - name: Caja Rural de Asturias
+    image: cajaRural.png
+    link: http://www.cajaruraldeasturias.com/
+    linktitle: Ir a la web de la Caja Rural de Asturias    
+ 

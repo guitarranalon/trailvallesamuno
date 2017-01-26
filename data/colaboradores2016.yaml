@@ -1,0 +1,54 @@
+---
+empresas:
+  - name: Protección Civil
+    image: proteccionCivil.png
+    link: ""
+    linktitle: ""
+  - name: Archivo Histórico de Hunosa Pozu Fondón
+    image: archivoHistoricoHunosa.png
+    link: ""
+    linktitle: ""  
+  - name: Garaje Salamanca
+    image: garajeSalamanca.png
+    link: http://www.garajesalamanca.es/
+    linktitle: Ir a la web del Garaje Salamanca
+  - name: Physiorelax
+    image: physiorelax.png
+    link: http://www.physiorelaxforte.com/
+    linktitle: Ir a la web de Physiorelax
+  - name: Pepsi Aquarade
+    image: pepsiAquarade.png
+    link: http://www.pepsico.com/
+    linktitle: Ir a la web de Pepsico       
+  - name: Dietética y Nutrición Jara
+    image: jara.png
+    link: http://www.jaradieta.com/
+    linktitle: Ir a la web de Dietética Jara
+  - name: Curuxera
+    image: curuxera.png
+    link: https://www.facebook.com/Brew-Pub-Espumeru-Curuxera-Brewery-981888191839791/
+    linktitle: Ir a la web de Curuxera
+  - name: Mieles y licores Vayú
+    image: vayu.png
+    link: http://www.miellicoresvayu.com/
+    linktitle: Ir a la web de Mieles y licores Vayú
+  - name: Carrocerías Osuna
+    image: osuna.png
+    link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
+    linktitle: Ir a la web de Carrocerías Osuna
+  - name: Café Scala 9
+    image: scala9.png
+    link: https://www.facebook.com/pages/Scala-9/130073103722791
+    linktitle: Ir a la web del Café Scala 9
+  - name: Sabai Terapias Naturales
+    image: sabai.png
+    link: http://sabaiterapiasnaturales.com/
+    linktitle: Ir a la web de Sabai Terapias Naturales
+  - name: Clara I. Rebolo Castro Abogadas
+    image: claraIReboloCastroAbogadas.png
+    link: ""
+    linktitle: ""
+  - name: Sidra Natural Alonso
+    image: sidraAlonso.png
+    link: http://www.llagaralonso.com/
+    linktitle: Ir a la web de la Sidra Natural Alonso    
