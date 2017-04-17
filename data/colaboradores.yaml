@@ -1,2 +1,6 @@
 ---
-empresas: []   
+empresas:
+  - name: Sabai Terapias Naturales
+    image: sabai.png
+    link: http://sabaiterapiasnaturales.com/
+    linktitle: Ir a la web de Sabai Terapias Naturales
