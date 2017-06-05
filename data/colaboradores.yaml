@@ -8,3 +8,15 @@ empresas:
     image: dulceVainilla.png
     link: https://www.facebook.com/Dulce-Vainilla-141621062702222/
     linktitle: Ir a la web de Dulce Vainilla
+  - name: Dietética y Nutrición Jara
+    image: jara.png
+    link: http://www.jaradieta.com/
+    linktitle: Ir a la web de Dietética Jara    
+  - name: Carrocerías Osuna
+    image: osuna.png
+    link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
+    linktitle: Ir a la web de Carrocerías Osuna    
+  - name: Garaje Salamanca
+    image: garajeSalamanca.png
+    link: http://www.garajesalamanca.es/
+    linktitle: Ir a la web del Garaje Salamanca    
