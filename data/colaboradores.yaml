@@ -20,3 +20,7 @@ empresas:
     image: garajeSalamanca.png
     link: http://www.garajesalamanca.es/
     linktitle: Ir a la web del Garaje Salamanca    
+  - name: Restaurante Peña l'Agua
+    image: penalagua.png
+    link: https://www.facebook.com/Hotel-Restaurante-Pe%C3%B1a-lagua-284683551564585/
+    linktitle: Ir a la web del Restaurante Peña l'Agua
