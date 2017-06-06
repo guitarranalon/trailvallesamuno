@@ -20,3 +20,19 @@ empresas:
     image: ecomuseo.png
     link: http://www.ecomuseominero.es/
     linktitle: Ir a la web del Ecomuseo Minero Valle de Samuño
+  - name: Fempa
+    image: fempa.png
+    link: http://fempa.net/
+    linktitle: Ir a la web de la Federación de Escalada y Montaña del Principado de Asturias
+  - name: Deporte Asturiano
+    image: deporteAsturiano.png
+    link: http://deporteasturiano.org
+    linktitle: Ir a la web de la Dirección General de Deporte del Principado de Asturias
+  - name: EDP
+    image: edp.png
+    link: http://www.edpenergia.es/
+    linktitle: Ir a la web de EDP
+  - name: La Nueva España
+    image: lne.png
+    link: http://www.lne.es/
+    linktitle: Ir a la web de La Nueva España		
