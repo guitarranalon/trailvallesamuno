@@ -15,7 +15,7 @@ empresas:
   - name: Carrocerías Osuna
     image: osuna.png
     link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
-    linktitle: Ir a la web de Carrocerías Osuna    
+    linktitle: Ir a la web de Carrocerías Osuna
   - name: Garaje Salamanca
     image: garajeSalamanca.png
     link: http://www.garajesalamanca.es/
@@ -24,3 +24,7 @@ empresas:
     image: penalagua.png
     link: https://www.facebook.com/Hotel-Restaurante-Pe%C3%B1a-lagua-284683551564585/
     linktitle: Ir a la web del Restaurante Peña l'Agua
+  - name: Decathlon
+    image: decathlon.png
+    link: https://www.decathlon.es
+    linktitle: Ir a la web de Decathlon	
