@@ -27,4 +27,12 @@ empresas:
   - name: Decathlon
     image: decathlon.png
     link: https://www.decathlon.es
-    linktitle: Ir a la web de Decathlon	
+    linktitle: Ir a la web de Decathlon
+  - name: Clara I. Rebolo Castro Abogadas
+    image: claraIReboloCastroAbogadas.png
+    link: ""
+    linktitle: ""
+  - name: Mapfre - Oficina La Felguera
+    image: mapfre.png
+    link: https://www.mapfre.es/oficina/es_ES/langreo-llangreu/horacio-fdzinguanzo-paisano-2-L20700/
+    linktitle: Ir a la web de Mapfre Oficina La Felguera        
