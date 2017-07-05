@@ -47,4 +47,8 @@ empresas:
   - name: Mieles y licores Vayú
     image: vayu.png
     link: http://www.miellicoresvayu.com/
-    linktitle: Ir a la web de Mieles y licores Vayú	
+    linktitle: Ir a la web de Mieles y licores Vayú
+  - name: Caja Rural de Asturias
+    image: cajaRural.png
+    link: http://www.cajaruraldeasturias.com/
+    linktitle: Ir a la web de la Caja Rural de Asturias	
