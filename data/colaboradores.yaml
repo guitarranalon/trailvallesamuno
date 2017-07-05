@@ -43,4 +43,8 @@ empresas:
   - name: Sidra Natural Alonso
     image: sidraAlonso.png
     link: http://www.llagaralonso.com/
-    linktitle: Ir a la web de la Sidra Natural Alonso	
+    linktitle: Ir a la web de la Sidra Natural Alonso
+  - name: Mieles y licores Vayú
+    image: vayu.png
+    link: http://www.miellicoresvayu.com/
+    linktitle: Ir a la web de Mieles y licores Vayú	
