@@ -59,4 +59,8 @@ empresas:
   - name: Sidrería Les Escueles
     image: sidreriaLesEscueles.png
     link: https://www.facebook.com/Sidrer%C3%ADa-Les-Escueles-1485727595079763/
-    linktitle: Ir a la web de la Sidrería Les Escueles	
+    linktitle: Ir a la web de la Sidrería Les Escueles
+  - name: Cafetería Pablo's
+    image: cafeteriaPablos.png
+    link: https://www.facebook.com/pages/Cafeter%C3%ADa-Pablos-Langreo-Asturias/313090022180542
+    linktitle: Ir a la web de la Cafetería Pablo's
