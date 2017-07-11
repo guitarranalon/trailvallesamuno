@@ -55,4 +55,8 @@ empresas:
   - name: Full Black Ink
     image: fullBlackInk.png
     link: https://www.facebook.com/Full-Black-Ink-1003649009645585/
-    linktitle: Ir a la web de Full Black Ink		
+    linktitle: Ir a la web de Full Black Ink
+  - name: Sidrería Les Escueles
+    image: sidreriaLesEscueles.png
+    link: https://www.facebook.com/Sidrer%C3%ADa-Les-Escueles-1485727595079763/
+    linktitle: Ir a la web de la Sidrería Les Escueles	
