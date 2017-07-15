@@ -64,3 +64,7 @@ empresas:
     image: cafeteriaPablos.png
     link: https://www.facebook.com/pages/Cafeter%C3%ADa-Pablos-Langreo-Asturias/313090022180542
     linktitle: Ir a la web de la Cafetería Pablo's
+  - name: Quesería el Cabriteru
+    image: cabriteru.png
+    link: http://www.queseriaelcabriteru.com/
+    linktitle: Ir a la web de la Quesería el Cabriteru
