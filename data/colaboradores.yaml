@@ -68,3 +68,7 @@ empresas:
     image: cabriteru.png
     link: http://www.queseriaelcabriteru.com/
     linktitle: Ir a la web de la Quesería el Cabriteru
+  - name: Trailcast
+    image: trailcast.png
+    link: http://www.trailcast.es/
+    linktitle: Ir a la web de Trailcast
