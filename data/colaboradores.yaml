@@ -32,6 +32,10 @@ empresas:
     image: claraIReboloCastroAbogadas.png
     link: ""
     linktitle: ""
+  - name: A Fuego
+    image: aFuego.jpg
+    link: https://www.facebook.com/A-Fuego-Solorunners-183400788510733/
+    linktitle: Ir a la web de la tienda deportiva a Fuego	
   - name: Mapfre - Oficina La Felguera
     image: mapfre.png
     link: https://www.mapfre.es/oficina/es_ES/langreo-llangreu/horacio-fdzinguanzo-paisano-2-L20700/
@@ -72,3 +76,7 @@ empresas:
     image: trailcast.png
     link: http://www.trailcast.es/
     linktitle: Ir a la web de Trailcast
+  - name: Suminfor
+    image: suminfor.png
+    link: http://www.suminfor.com/
+    linktitle: Ir a la web de Suminfor
