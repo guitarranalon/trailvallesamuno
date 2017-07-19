@@ -80,3 +80,7 @@ empresas:
     image: suminfor.png
     link: http://www.suminfor.com/
     linktitle: Ir a la web de Suminfor
+  - name: Flores Pris
+    image: floresPris.png
+    link: https://www.facebook.com/floristeriapris/
+    linktitle: Ir a la web de Floristería Pris	
