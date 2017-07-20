@@ -83,4 +83,8 @@ empresas:
   - name: Flores Pris
     image: floresPris.png
     link: https://www.facebook.com/floristeriapris/
-    linktitle: Ir a la web de Floristería Pris	
+    linktitle: Ir a la web de Floristería Pris
+  - name: Caldas Clinic
+    image: caldasClinic.png
+    link: https://www.lascaldasvillatermal.com/es-ES/las-caldas-clinic/concepto.aspx
+    linktitle: Ir a la web de Las Caldas Clinic
