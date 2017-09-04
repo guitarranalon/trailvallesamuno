@@ -27,6 +27,9 @@ pages:
       path: carrera/edicionesanteriores.html
       title: Ir a la página sobre ediciones anteriores
       children:
+      - name: 2017
+        path: carrera/edicionesanteriores/2017.html
+        title: Ir a la página sobre la edición de 2017	  
       - name: 2016
         path: carrera/edicionesanteriores/2016.html
         title: Ir a la página sobre la edición de 2016
