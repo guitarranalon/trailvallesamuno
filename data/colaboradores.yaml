@@ -1,41 +1,17 @@
 ---
 empresas:
-  - name: Sabai Terapias Naturales
-    image: sabai.png
-    link: http://sabaiterapiasnaturales.com/
-    linktitle: Ir a la web de Sabai Terapias Naturales
   - name: Dulce Vainilla
     image: dulceVainilla.png
     link: https://www.facebook.com/Dulce-Vainilla-141621062702222/
     linktitle: Ir a la web de Dulce Vainilla
-  - name: Dietética y Nutrición Jara
-    image: jara.png
-    link: https://www.facebook.com/jarafernandezrodriguez/
-    linktitle: Ir a la web de Dietética Jara    
   - name: Carrocerías Osuna
     image: osuna.png
     link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
     linktitle: Ir a la web de Carrocerías Osuna
-  - name: Garaje Salamanca
-    image: garajeSalamanca.png
-    link: http://www.garajesalamanca.es/
-    linktitle: Ir a la web del Garaje Salamanca    
   - name: Restaurante Peña l'Agua
     image: penalagua.png
     link: https://www.facebook.com/Hotel-Restaurante-Pe%C3%B1a-lagua-284683551564585/
     linktitle: Ir a la web del Restaurante Peña l'Agua
-  - name: Decathlon
-    image: decathlon.png
-    link: https://www.decathlon.es
-    linktitle: Ir a la web de Decathlon
-  - name: Clara I. Rebolo Castro Abogadas
-    image: claraIReboloCastroAbogadas.png
-    link: ""
-    linktitle: ""
-  - name: A Fuego
-    image: aFuego.jpg
-    link: https://www.facebook.com/A-Fuego-Solorunners-183400788510733/
-    linktitle: Ir a la web de la tienda deportiva a Fuego	
   - name: Mapfre - Oficina La Felguera
     image: mapfre.png
     link: https://www.mapfre.es/oficina/es_ES/langreo-llangreu/horacio-fdzinguanzo-paisano-2-L20700/
@@ -44,10 +20,6 @@ empresas:
     image: connorte.png
     link: ""
     linktitle: ""
-  - name: Sidra Natural Alonso
-    image: sidraAlonso.png
-    link: http://www.llagaralonso.com/
-    linktitle: Ir a la web de la Sidra Natural Alonso
   - name: Mieles y licores Vayú
     image: vayu.png
     link: http://www.miellicoresvayu.com/
@@ -56,34 +28,6 @@ empresas:
     image: cajaRural.png
     link: http://www.cajaruraldeasturias.com/
     linktitle: Ir a la web de la Caja Rural de Asturias	
-  - name: Full Black Ink
-    image: fullBlackInk.png
-    link: https://www.facebook.com/Full-Black-Ink-1003649009645585/
-    linktitle: Ir a la web de Full Black Ink
-  - name: Sidrería Les Escueles
-    image: sidreriaLesEscueles.png
-    link: https://www.facebook.com/Sidrer%C3%ADa-Les-Escueles-1485727595079763/
-    linktitle: Ir a la web de la Sidrería Les Escueles
-  - name: Cafetería Pablo's
-    image: cafeteriaPablos.png
-    link: https://www.facebook.com/pages/Cafeter%C3%ADa-Pablos-Langreo-Asturias/313090022180542
-    linktitle: Ir a la web de la Cafetería Pablo's
-  - name: Quesería el Cabriteru
-    image: cabriteru.png
-    link: http://www.queseriaelcabriteru.com/
-    linktitle: Ir a la web de la Quesería el Cabriteru
-  - name: Trailcast
-    image: trailcast.png
-    link: http://www.trailcast.es/
-    linktitle: Ir a la web de Trailcast
-  - name: Suminfor
-    image: suminfor.png
-    link: http://www.suminfor.com/
-    linktitle: Ir a la web de Suminfor
-  - name: Flores Pris
-    image: floresPris.png
-    link: https://www.facebook.com/floristeriapris/
-    linktitle: Ir a la web de Floristería Pris
   - name: Caldas Clinic
     image: caldasClinic.png
     link: https://www.lascaldasvillatermal.com/es-ES/las-caldas-clinic/concepto.aspx
