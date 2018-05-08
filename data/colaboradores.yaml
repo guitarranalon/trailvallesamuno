@@ -32,3 +32,11 @@ empresas:
     image: caldasClinic.png
     link: https://www.lascaldasvillatermal.com/es-ES/las-caldas-clinic/concepto.aspx
     linktitle: Ir a la web de Las Caldas Clinic
+  - name: Decathlon
+    image: decathlon.png
+    link: https://www.decathlon.es
+    linktitle: Ir a la web de Decathlon
+  - name: Flores Pris
+    image: floresPris.png
+    link: https://www.facebook.com/floristeriapris/
+    linktitle: Ir a la web de Floristería Pris	
