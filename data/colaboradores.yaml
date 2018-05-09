@@ -4,14 +4,22 @@ empresas:
     image: dulceVainilla.png
     link: https://www.facebook.com/Dulce-Vainilla-141621062702222/
     linktitle: Ir a la web de Dulce Vainilla
-  - name: Carrocerías Osuna
-    image: osuna.png
-    link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
-    linktitle: Ir a la web de Carrocerías Osuna
+  - name: Dietética y Nutrición Jara
+    image: jara.png
+    link: https://www.facebook.com/jarafernandezrodriguez/
+    linktitle: Ir a la web de Dietética Jara	
   - name: Restaurante Peña l'Agua
     image: penalagua.png
     link: https://www.facebook.com/Hotel-Restaurante-Pe%C3%B1a-lagua-284683551564585/
     linktitle: Ir a la web del Restaurante Peña l'Agua
+  - name: Carrocerías Osuna
+    image: osuna.png
+    link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
+    linktitle: Ir a la web de Carrocerías Osuna	
+  - name: Garaje Salamanca
+    image: garajeSalamanca.png
+    link: http://www.garajesalamanca.es/
+    linktitle: Ir a la web del Garaje Salamanca	
   - name: Mapfre - Oficina La Felguera
     image: mapfre.png
     link: https://www.mapfre.es/oficina/es_ES/langreo-llangreu/horacio-fdzinguanzo-paisano-2-L20700/
