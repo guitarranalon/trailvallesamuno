@@ -28,6 +28,10 @@ empresas:
     image: connorte.png
     link: ""
     linktitle: ""
+  - name: Clara I. Rebolo Castro Abogadas
+    image: claraIReboloCastroAbogadas.png
+    link: ""
+    linktitle: ""	
   - name: Mieles y licores Vayú
     image: vayu.png
     link: http://www.miellicoresvayu.com/
@@ -52,3 +56,11 @@ empresas:
     image: agrolago.png
     link: http://agrolago.es/
     linktitle: Ir a la web de Agrolago
+  - name: Cafetería Pablo's
+    image: cafeteriaPablos.png
+    link: https://www.facebook.com/pages/Cafeter%C3%ADa-Pablos-Langreo-Asturias/313090022180542
+    linktitle: Ir a la web de la Cafetería Pablo's
+  - name: Emo Vending
+    image: emovending.png
+    link: ""
+    linktitle: ""		
