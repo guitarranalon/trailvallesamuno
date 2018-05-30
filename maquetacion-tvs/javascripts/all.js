@@ -1947,11 +1947,11 @@ $.cookiesWarning("transversales/detallesCookies.html");
     }
 }(window, window.jQuery));
 
-var progressBarsAnimations = function(){
-	var $tiposCaminos = $('#tiposCaminos'),
+var progressBarsAnimations = function(selector){
+	var $tiposCaminos = $(selector),
 			$progressBars = $tiposCaminos.find('.progress-bar'),
 			position = $tiposCaminos.offset();
-
+ 
 	$progressBars.attr('style', 'width: 0');
 		
 	$(function domReady($) {
