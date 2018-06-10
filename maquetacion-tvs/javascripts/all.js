@@ -1452,7 +1452,7 @@ var runRoadbook = function(){
 				note: 'Fin del tramo de asfalto'
 			},
 			{
-				km: 6,
+				km: 5.9,
 				kmReal: 5.9,
 				note: 'Pico Espines (1.008 m)'
 			},
@@ -1472,38 +1472,53 @@ var runRoadbook = function(){
 				note: 'Alto Urbiés o Alto la Mozquita: cruce de carretera LA-7. ¡Empieza una dura subida!'
 			},
 			{
-				km: 10.4,
+				km: 10.2,
 				kmReal: 10.9,
 				note: 'Pico las Cruces (955 m). Sube y baja contínuo hasta el Mayáu Miguel'
 			},
 			{
-				km: 12.5,
+				km: 12.4,
 				kmReal: 13,
 				note: 'Mayáu Miguel (860 m): avituallamiento sólido/líquido. ¡Empieza la primera bajada importante!'
 			},
 			{
+				km: 15.9,
+				kmReal: 15.6,
+				note: 'El Corralón: Cruce de carretera'
+			},
+			{
 				km: 16.8,
-				kmReal: 17.6,
+				kmReal: 16.6,
+				note: 'Comienza la última subida'
+			},
+			{
+				km: 18.5,
+				kmReal: 18.4,
+				note: 'Cresta los Fugaos: ¡se pone pindio!'
+			},			
+			{
+				km: 18.8,
+				kmReal: 18.6,
 				note: '¡Atención! Cruce de la carretera LA-8'
 			},
 			{
-				km: 18.1,
-				kmReal: 18.7,
+				km: 19.8,
+				kmReal: 19.6,
 				note: 'Pico Rondiz (734 m): avituallamiento líquido. ¡Empieza la última bajada!'
 			},
 			{
-				km: 20.1,
-				kmReal: 21.1,
+				km: 22.2,
+				kmReal: 21.7,
 				note: 'El Fresnedal, cruce de la carretera LA-8'
 			},
 			{
-				km: 20.8,
-				kmReal: 21.8,
+				km: 22.7,
+				kmReal: 22.1,
 				note: 'Túnel: entrada por el socavón Emilia a la galería del Ecomuseo'
 			},
 			{
-				km: 22.6,
-				kmReal: 22.6,
+				km: 24,
+				kmReal: 24,
 				note: 'Meta'
 			}
 		]
@@ -1511,7 +1526,7 @@ var runRoadbook = function(){
 
 	(function(){
 		var i = 0,
-			kmTotal = 22;
+			kmTotal = 24;
 
 		var path = document.getElementById('path'),
 			segment = new Segment(path, "0", "100%", true),
