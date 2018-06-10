@@ -56,6 +56,10 @@ empresas:
     image: agrolago.png
     link: http://agrolago.es/
     linktitle: Ir a la web de Agrolago
+  - name: Sabai Terapias Naturales
+    image: sabai.png
+    link: http://sabaiterapiasnaturales.com/
+    linktitle: Ir a la web de Sabai Terapias Naturales	
   - name: Cafetería Pablo's
     image: cafeteriaPablos.png
     link: https://www.facebook.com/pages/Cafeter%C3%ADa-Pablos-Langreo-Asturias/313090022180542
@@ -64,6 +68,10 @@ empresas:
     image: emovending.png
     link: ""
     linktitle: ""
+  - name: Zapatería Don Tacón
+    image: dontacon.png
+    link: http://zapateriadontacon.com/
+    linktitle: Ir a la web de la zapatería Don Tacón
   - name: Asociación Cultural San Luis de La Nueva
     image: sanluis.png
     link: https://www.facebook.com/acsanluis
