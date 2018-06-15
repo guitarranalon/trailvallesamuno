@@ -35,7 +35,11 @@ empresas:
   - name: Mieles y licores Vayú
     image: vayu.png
     link: http://www.miellicoresvayu.com/
-    linktitle: Ir a la web de Mieles y licores Vayú
+    linktitle: Ir a la web de Mieles y licores Vayú  
+  - name: Totem Tattoo
+    image: totemtattoo.png
+    link: https://www.facebook.com/TotemTattooEstudio/
+    linktitle: Ir a la web de Totem Tattoo Estudio
   - name: Caja Rural de Asturias
     image: cajaRural.png
     link: http://www.cajaruraldeasturias.com/
