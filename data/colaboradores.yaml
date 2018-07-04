@@ -72,6 +72,10 @@ empresas:
     image: emovending.png
     link: ""
     linktitle: ""
+  - name: Horizonte Trail
+    image: horizontetrail.png
+    link: https://www.facebook.com/Horizonte-Trail-Langreo-1328213567290531/
+    linktitle: Ir a la web de Horizonte Trail	
   - name: Zapatería Don Tacón
     image: dontacon.png
     link: http://zapateriadontacon.com/
@@ -80,3 +84,19 @@ empresas:
     image: sanluis.png
     link: https://www.facebook.com/acsanluis
     linktitle: Ir a la web de la Asociación Cultural San Luis de La Nueva
+  - name: Roberto Cancio González Diseño y web
+    image: robertocanciogonzalez.png
+    link: ""
+    linktitle: ""
+  - name: Corazón Negro Crossfit
+    image: corazonnegro.png
+    link: https://corazonnegrocrossfit.com/
+    linktitle: Ir a la web de Corazón Negro Crossfit	
+  - name: Sidrería Les Escueles
+    image: sidreriaLesEscueles.png
+    link: https://www.facebook.com/Sidrer%C3%ADa-Les-Escueles-1485727595079763/
+    linktitle: Ir a la web de la Sidrería Les Escueles	
+  - name: Trailcast
+    image: trailcast.png
+    link: http://www.trailcast.es/
+    linktitle: Ir a la web de Trailcast	
