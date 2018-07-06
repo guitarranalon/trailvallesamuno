@@ -84,6 +84,10 @@ empresas:
     image: sanluis.png
     link: https://www.facebook.com/acsanluis
     linktitle: Ir a la web de la Asociación Cultural San Luis de La Nueva
+  - name: Suminfor
+    image: suminfor.png
+    link: http://www.suminfor.com/
+    linktitle: Ir a la web de Suminfor	
   - name: Roberto Cancio González Diseño y web
     image: robertocanciogonzalez.png
     link: ""
