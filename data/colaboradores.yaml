@@ -99,7 +99,11 @@ empresas:
   - name: Sidrería Les Escueles
     image: sidreriaLesEscueles.png
     link: https://www.facebook.com/Sidrer%C3%ADa-Les-Escueles-1485727595079763/
-    linktitle: Ir a la web de la Sidrería Les Escueles	
+    linktitle: Ir a la web de la Sidrería Les Escueles
+  - name: Ediciones Cordillera Cantábrica
+    image: edicionesCordilleraCantabrica.png
+    link: http://www.edicionescordilleracantabrica.com/
+    linktitle: Ir a la web de Ediciones Cordillera Cantábrica		
   - name: Trailcast
     image: trailcast.png
     link: http://www.trailcast.es/
