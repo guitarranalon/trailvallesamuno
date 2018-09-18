@@ -4,10 +4,6 @@ empresas:
     image: clinicaNalonDental.jpg
     link: http://www.clinicanalondental.com
     linktitle: Ir a la web de la Clínica Nalón Dental
-  - name: Lexus
-    image: lexus.png
-    link: http://www.lexusauto.es/retailers/lexus-asturias
-    linktitle: Ir a la web de Lexus Asturias
   - name: Toyota
     image: toyota.png
     link: http://www.toyotaoviedo.toyota.es/
