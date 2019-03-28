@@ -76,6 +76,7 @@
 
 	li > a{
 		display: inline-block;
+		white-space: nowrap;
 
 		@include mq($screen-sm-plus-min){
 			color: $colorTema;
