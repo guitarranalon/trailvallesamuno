@@ -122,7 +122,8 @@
 }
 
 .active > span{
-	font-family: $fontFamily;	
+	font-family: $fontFamily;
+	white-space: nowrap;	
 }
 
 // ---- Mobile menu
