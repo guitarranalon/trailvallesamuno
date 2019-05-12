@@ -78,6 +78,9 @@ pages:
     - name: Seguimiento
       path: informacion/seguimiento.html
       title: Ir a la sección sobre los mejores puntos para ver pasar la carrera	
+    - name: Reconocimientos
+      path: informacion/reconocimientos.html
+      title: Ir a la sección de la Política de calidad de la carrera
     - name: Política calidad
       path: informacion/politicacalidad.html
       title: Ir a la sección de la Política de calidad de la carrera	 
