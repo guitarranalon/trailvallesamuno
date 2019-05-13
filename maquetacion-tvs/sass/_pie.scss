@@ -89,6 +89,11 @@ footer .contact{
 	list-style: none;
 	margin-bottom: 1.5em;
 	padding-left: 0;
+	text-align: center;
+	
+	@include mq($screen-xs-min){
+		text-align: left;
+	}
 	
 	@include mq($screen-sm-min){
 		margin-left: 8.598726%;
@@ -104,7 +109,12 @@ footer .contact{
 }
 
 footer .social{
-	margin-bottom: sizeEM($lineHeightBasico);	
+	margin-bottom: sizeEM($lineHeightBasico*2);
+	text-align: center;
+	
+	@include mq($screen-xs-min){
+		text-align: left;
+	}	
 }
 
 footer .social > ul{
@@ -138,7 +148,26 @@ footer .social > ul{
 	}
 }
 
-footer .homologacion{
+footer .sellos{
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+	
+	> li {
+		margin-bottom: 1em;
+		
+		@include mq($screen-xs-min){
+			display: inline-block;
+			margin-bottom: 0;
+		}
+	}
+	
+	> li + li {
+		@include mq($screen-xs-min){
+			margin-left: 1.5em;
+		}
+	}
+
 	@include mq($screen-sm-min){
 		position: absolute;
 		right: 0;
@@ -151,7 +180,24 @@ footer .homologacion{
 	}
 	
 	.homologada-fempa{
-		height: 102px;
-		width: 213px;
+		height: 85px;
+		width: 178px;
+	}
+	
+	.langreocalidadturistica,
+	.nortrail {
+		svg {
+			fill: #eee;
+			height: 85px;
+			width: 85px;
+			
+			&:hover{
+				fill: #fff;
+			}
+		}
+	}
+	
+	.nortrail svg{
+		width: 56px;
 	}
 }
