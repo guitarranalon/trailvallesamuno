@@ -3,11 +3,7 @@ empresas:
   - name: Clínica Nalón Dental
     image: clinicaNalonDental.jpg
     link: http://www.clinicanalondental.com
-    linktitle: Ir a la web de la Clínica Nalón Dental
-  - name: Toyota
-    image: toyota.png
-    link: http://www.toyotaoviedo.toyota.es/
-    linktitle: Ir a la web de Toyota Oviedo 	
+    linktitle: Ir a la web de la Clínica Nalón Dental 	
   - name: Área de Deportes del Ayuntamiento de Langreo
     image: areaDeportesLangreo.png
     link: http://www.langreo.as/ayuntamiento_es/delegaciones/deportes/
