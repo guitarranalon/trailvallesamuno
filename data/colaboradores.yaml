@@ -8,3 +8,15 @@ empresas:
     image: asturpro.png
     link: https://www.facebook.com/AsturproGijon/
     linktitle: Ir a la web de Asturpro
+  - name: Las Caldas Villa Termal
+    image: caldasClinic.png
+    link: https://www.lascaldasvillatermal.com/
+    linktitle: Ir a la web de Las Caldas Villa Termal
+  - name: Sabai Terapias Naturales
+    image: sabai.png
+    link: http://sabaiterapiasnaturales.com/
+    linktitle: Ir a la web de Sabai Terapias Naturales
+  - name: Dole
+    image: dole.png
+    link: ""
+    linktitle: ""
