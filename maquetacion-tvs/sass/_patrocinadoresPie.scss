@@ -1,5 +1,6 @@
-#patrocinadoresFooter{
-	background: #ddd;
+#patrocinadoresFooter,
+#colaboradoresFooter{
+	background: #eee;
 	clear: both;
 	padding: 4em 0;
 	
@@ -19,4 +20,8 @@
 			@include clearfixAfter;
 		}
 	}
+}
+
+#colaboradoresFooter{
+	padding-top: 1em;
 }
