@@ -35,6 +35,8 @@
 			for (var i=0, max = seleccionados.length; i < max; i++) {
 				$colabs.eq(seleccionados[i]).show();
 			}
+			
+			$colabs.not(':visible').remove();
 		}
 
 		return this;

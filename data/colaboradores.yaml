@@ -18,5 +18,20 @@ empresas:
     linktitle: Ir a la web de Sabai Terapias Naturales
   - name: Dole
     image: dole.png
-    link: ""
-    linktitle: ""
+    link: http://www.dole-espanol.com/Home2
+    linktitle: Ir a la web de Dole Europa
+  - name: Mieles y licores Vayú
+    image: vayu.png
+    link: http://www.miellicoresvayu.com/
+  - name: Cafetería Pablo's
+    image: cafeteriaPablos.png
+    link: https://www.facebook.com/pages/Cafeter%C3%ADa-Pablos-Langreo-Asturias/313090022180542
+    linktitle: Ir a la web de la Cafetería Pablo's
+  - name: Casa El Chato
+    image: elchato.png
+    link: https://www.facebook.com/pages/category/Bar/Casa-El-Chato-788998317807044/
+    linktitle: Ir a la web de Casa El Chato, La Nueva
+  - name: Casa Xuaquina
+    image: casaxuaquina.png
+    link: https://www.facebook.com/pages/category/Restaurant/Casa-Xuaquina-1766446313574140/
+    linktitle: Ir a la web de Casa Xuaquina, comida casera

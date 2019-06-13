@@ -565,6 +565,8 @@ return b?(parseFloat(Sa(a,"marginLeft"))||(n.contains(a.ownerDocument,a)?a.getBo
 			for (var i=0, max = seleccionados.length; i < max; i++) {
 				$colabs.eq(seleccionados[i]).show();
 			}
+			
+			$colabs.not(':visible').remove();
 		}
 
 		return this;

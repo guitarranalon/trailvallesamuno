@@ -72,7 +72,7 @@ module.exports = function(grunt) {
 			'dest': 'javascripts/all.min.js'
 		}
 	},
-	
+		
 	concat: {
 		dist: {
 		  src: [
@@ -122,6 +122,14 @@ module.exports = function(grunt) {
 				dest: 'images/c1nn/'
 			}]
 		}
+	},
+
+	uglify: {
+		dist: {
+		  files: {
+			'javascripts/all.min.js': ['javascripts/all.js']
+		  }
+		}
 	}	
   });
 
@@ -134,9 +142,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-yui-compressor');
   grunt.loadNpmTasks('grunt-contrib-yuidoc');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
 
   // Register the default tasks.
   grunt.registerTask('default', ['watch']);
-  grunt.registerTask('prod',['compass:dist', 'concat', 'jshint', 'removelogging', 'min']);
+  grunt.registerTask('prod',['compass:dist', 'concat', 'jshint', 'removelogging', 'uglify:dist']);
 };
