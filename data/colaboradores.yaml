@@ -35,3 +35,19 @@ empresas:
     image: casaxuaquina.png
     link: https://www.facebook.com/pages/category/Restaurant/Casa-Xuaquina-1766446313574140/
     linktitle: Ir a la web de Casa Xuaquina, comida casera
+  - name: Connorte Economistas
+    image: connorte.png
+    link: "https://www.connorte.com"
+    linktitle: "Ir a la web de Connorte Economistas"
+  - name: Corazón Negro Crossfit
+    image: corazonnegro.png
+    link: https://corazonnegrocrossfit.com/
+    linktitle: Ir a la web de Corazón Negro Crossfit	
+  - name: Sidrería Les Escueles
+    image: sidreriaLesEscueles.png
+    link: https://www.facebook.com/Sidrer%C3%ADa-Les-Escueles-1485727595079763/
+    linktitle: Ir a la web de la Sidrería Les Escueles
+  - name: Zapatería Don Tacón
+    image: dontacon.png
+    link: http://zapateriadontacon.com/
+    linktitle: Ir a la web de la zapatería Don Tacón
