@@ -20,6 +20,10 @@ empresas:
     image: dole.png
     link: http://www.dole-espanol.com/Home2
     linktitle: Ir a la web de Dole Europa
+  - name: Dietética y Nutrición Jara
+    image: jara.png
+    link: https://www.facebook.com/jarafernandezrodriguez/
+    linktitle: Ir a la web de Dietética Jara
   - name: Mieles y licores Vayú
     image: vayu.png
     link: http://www.miellicoresvayu.com/
