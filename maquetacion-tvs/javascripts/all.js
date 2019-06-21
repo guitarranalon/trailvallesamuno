@@ -544,6 +544,13 @@ return b?(parseFloat(Sa(a,"marginLeft"))||(n.contains(a.ownerDocument,a)?a.getBo
 		return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
 
+	/*
+	* Calculando la cantidad de colaboradores visibles al siguiente múltiplo de cuatro de la mitad de elementos
+	*/
+	function visibleCollaborators(totalCollabs) {
+		return Math.ceil((totalCollabs/2) / 4)*4;
+	}
+
 	$.fn.randomCollaborators = function () {
 		var n = $colabs.length,
 			seleccionados = new Array(),
@@ -553,8 +560,9 @@ return b?(parseFloat(Sa(a,"marginLeft"))||(n.contains(a.ownerDocument,a)?a.getBo
 			// ocultamos todos los colaboradores
 			$colabs.hide();
 
-			// generamos 4 números aleatorios entre 0 y n
-			while (seleccionados.length < 4) {
+			// generamos 4 números aleatorios entre 0 y el múltiplo de 4 más próximo a n/2 para que
+			// los colaboradores tengan una probabilidad de aparición del 50%
+			while (seleccionados.length < visibleCollaborators($colabs.length)) {
 				rnd = getRandomInt(0, n - 1);
 
 				if (seleccionados.indexOf(rnd) === -1) {
