@@ -22,83 +22,73 @@ var runRoadbook = function(){
 				note: 'Casas de abajo de El Tendeyón'
 			},
 			{
-				km: 3.3,
+				km: 3.6,
 				kmReal: 3.5,
-				note: 'Casas de arriba de El Tendeyón: ¡Atención! 0,5 km de asfalto'
-			},
-			{
-				km: 3.5,
-				kmReal: 3.9,
-				note: 'Fin del tramo de asfalto'
+				note: 'La Inverniza: avituallamiento líquido'
 			},
 			{
 				km: 5.9,
-				kmReal: 5.9,
+				kmReal: 5.7,
 				note: 'Pico Espines (1.008 m)'
 			},
 			{
 				km: 6.3,
-				kmReal: 6.4,
-				note: 'Mayáu Porrín: avituallamiento líquido'
+				kmReal: 6.2,
+				note: 'Mayáu Porrín'
 			},
 			{
-				km: 7.2,
-				kmReal: 7.2,
-				note: 'Pico Cogollu (1.021 m): techo de la prueba y del concejo de Langreo. Contínuo sube y baja hasta el Alto Urbiés'
+				km: 7.1,
+				kmReal: 7,
+				note: 'Pico Cogollu (1.021 m): techo de la prueba y del concejo de Langreo. Contínuo sube y baja hasta el Alto La Mozqueta'
 			},
 			{
-				km: 10,
-				kmReal: 10.4,
-				note: 'Alto Urbiés o Alto la Mozquita: cruce de carretera LA-7. ¡Empieza una dura subida!'
+				km: 9.8,
+				kmReal: 9.8,
+				note: 'Alto la Mozqueta: avituallamiento sólido/líquido. ¡Atención! Cruce de carretera LA-7. Continua el sube y baja'
 			},
 			{
-				km: 10.2,
-				kmReal: 10.9,
-				note: 'Pico las Cruces (955 m). Sube y baja contínuo hasta el Mayáu Miguel'
+				km: 12,
+				kmReal: 12.1,
+				note: 'Mayáu Miguel (860 m): Control de tiempo: máx 3h 15min. ¡Empieza la primera bajada importante!'
 			},
 			{
-				km: 12.4,
-				kmReal: 13,
-				note: 'Mayáu Miguel (860 m): avituallamiento sólido/líquido. ¡Empieza la primera bajada importante!'
-			},
-			{
-				km: 15.9,
-				kmReal: 15.6,
+				km: 15.4,
+				kmReal: 15.4,
 				note: 'El Corralón: Cruce de carretera'
 			},
 			{
-				km: 16.8,
-				kmReal: 16.6,
+				km: 15.6,
+				kmReal: 15.6,
 				note: 'Comienza la última subida'
 			},
 			{
-				km: 18.5,
-				kmReal: 18.4,
+				km: 16,
+				kmReal: 16,
 				note: 'Cresta los Fugaos: ¡se pone pindio!'
 			},			
 			{
-				km: 18.8,
-				kmReal: 18.6,
-				note: '¡Atención! Cruce de la carretera LA-8'
+				km: 16.3,
+				kmReal: 16.1,
+				note: 'La Capilla: avituallamiento líquido. ¡Atención! Cruce de la carretera LA-8'
 			},
 			{
-				km: 19.8,
-				kmReal: 19.6,
+				km: 17.3,
+				kmReal: 17.3,
 				note: 'Pico Rondiz (734 m): avituallamiento líquido. ¡Empieza la última bajada!'
 			},
 			{
-				km: 22.2,
-				kmReal: 21.7,
+				km: 19.4,
+				kmReal: 19.3,
 				note: 'El Fresnedal, cruce de la carretera LA-8'
 			},
 			{
-				km: 22.7,
-				kmReal: 22.1,
+				km: 19.8,
+				kmReal: 19.8,
 				note: 'Túnel: entrada por el socavón Emilia a la galería del Ecomuseo'
 			},
 			{
-				km: 24,
-				kmReal: 24,
+				km: 21,
+				kmReal: 21,
 				note: 'Meta'
 			}
 		]
@@ -106,7 +96,7 @@ var runRoadbook = function(){
 
 	(function(){
 		var i = 0,
-			kmTotal = 24;
+			kmTotal = 21;
 
 		var path = document.getElementById('path'),
 			segment = new Segment(path, "0", "100%", true),
