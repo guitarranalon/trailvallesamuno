@@ -1550,7 +1550,7 @@ var runRoadbook = function(){
 			{
 				km: 17.3,
 				kmReal: 17.3,
-				note: 'Pico Rondiz (734 m): avituallamiento líquido. ¡Empieza la última bajada!'
+				note: 'Pico Rondiz (734 m) ¡Empieza la última bajada!'
 			},
 			{
 				km: 19.4,
