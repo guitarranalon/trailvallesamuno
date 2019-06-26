@@ -221,6 +221,12 @@
 // Roadbook
 #content .svg-container{
 	background: $colorTema;
+	display: flex;
+	justify-content: center;
+
+	> svg {
+		max-width: 100%;
+	}
 }
 
 .carrera_roadbook #content > .row{
