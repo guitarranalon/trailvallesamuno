@@ -232,16 +232,16 @@
 .carrera_roadbook #content{
 	form{
 		@include mq($screen-sm-min, false, max, width){
-			position: -webkit-sticky;
 			position: sticky;
+			position: -webkit-sticky;
 			top: 5px;
 		}
 	}
 
 	#info {
 		@include mq($screen-sm-min, false, max, width){
-			position: -webkit-sticky;
 			position: sticky;
+			position: -webkit-sticky;
 			top: 50px;
 		}
 	}
