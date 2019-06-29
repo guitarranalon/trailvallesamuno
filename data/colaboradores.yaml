@@ -27,6 +27,10 @@ empresas:
   - name: Mieles y licores Vayú
     image: vayu.png
     link: http://www.miellicoresvayu.com/
+  - name: Clínica podología y posturología Nuevo Langreo
+    image: podologoNuevoLangreo.png
+    link: http://clinicanuevolangreo.com/
+    linktitle: Ir a la web de la Caja Rural de Asturias
   - name: Cafetería Pablo's
     image: cafeteriaPablos.png
     link: https://www.facebook.com/pages/Cafeter%C3%ADa-Pablos-Langreo-Asturias/313090022180542
@@ -55,3 +59,11 @@ empresas:
     image: dontacon.png
     link: http://zapateriadontacon.com/
     linktitle: Ir a la web de la zapatería Don Tacón
+  - name: Clara I. Rebolo Castro Abogadas
+    image: claraIReboloCastroAbogadas.png
+    link: "https://www.facebook.com/pages/Rebolo-Castro-Clara-Isabel/1896845517209036"
+    linktitle: "Ir a la página de Clara I. Rebolo Castro Abogadas"	
+  - name: Caja Rural de Asturias
+    image: cajaRural.png
+    link: http://www.cajaruraldeasturias.com/
+    linktitle: Ir a la web de la Caja Rural de Asturias
