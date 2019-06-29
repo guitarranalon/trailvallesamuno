@@ -67,3 +67,7 @@ empresas:
     image: cajaRural.png
     link: http://www.cajaruraldeasturias.com/
     linktitle: Ir a la web de la Caja Rural de Asturias
+  - name: Victorius Sport Shop
+    image: victorius.png
+    link: https://www.facebook.com/Victorius-Sport-Shop-1558240007744970/
+    linktitle: Ir a la web de Victorius Sport Shop
