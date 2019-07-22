@@ -12,3 +12,7 @@ empresas:
     image: ecomuseo.png
     link: http://www.ecomuseominero.es/
     linktitle: Ir a la web del Ecomuseo Minero Valle de Samuño
+  - name: Siroko
+    image: siroko.png
+    link: https://www.siroko.com/
+    linktitle: Ir a la web de Siroko
