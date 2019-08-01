@@ -75,3 +75,7 @@ empresas:
     image: sanluis.png
     link: https://www.facebook.com/acsanluis
     linktitle: Ir a la web de la Asociación Cultural San Luis de La Nueva
+  - name: Totem Tattoo
+    image: totemtattoo.png
+    link: https://www.facebook.com/TotemTattooEstudio/
+    linktitle: Ir a la web de Totem Tattoo Estudio
