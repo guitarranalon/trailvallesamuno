@@ -86,4 +86,16 @@ empresas:
   - name: Carrocerías Osuna
     image: osuna.png
     link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
-    linktitle: Ir a la web de Carrocerías Osuna	    
+    linktitle: Ir a la web de Carrocerías Osuna
+  - name: Peluquería Leticia Molano
+    image: leticiamolano.png
+    link: https://www.facebook.com/letyblan/
+    linktitle: Ir a la web de la peluquería Leticia Molano
+  - name: Garaje Salamanca
+    image: garajeSalamanca.png
+    link: http://www.garajesalamanca.com/
+    linktitle: Ir a la web del Garaje Salamanca
+  - name: Suminfor
+    image: suminfor.png
+    link: http://www.suminfor.com/
+    linktitle: Ir a la web de Suminfor  
