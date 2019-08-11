@@ -98,4 +98,8 @@ empresas:
   - name: Suminfor
     image: suminfor.png
     link: http://www.suminfor.com/
-    linktitle: Ir a la web de Suminfor  
+    linktitle: Ir a la web de Suminfor
+  - name: Trailcast
+    image: trailcast.png
+    link: http://www.trailcast.es/
+    linktitle: Ir a la web de Trailcast 
