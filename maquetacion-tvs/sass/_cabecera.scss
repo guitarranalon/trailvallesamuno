@@ -126,3 +126,23 @@ header .enlaceBoton{
 		z-index: 1;
 	}
 }
+
+.anuncio-permanente {
+    background: #e44326e3;
+    color: white;
+	font-family: $fontFamilyBold;
+    padding: 0 20px;
+	position: fixed;
+    right: 10px;
+    text-transform: uppercase;
+    top: 10px;
+    z-index: 3000;
+	
+	@include mq($screen-sm-plus-min){
+		font-size: 18px;
+		padding: 0 100px;
+		right: -100px;
+		top: 90px;
+		transform: rotate(45deg);
+	}
+}
