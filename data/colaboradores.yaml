@@ -59,6 +59,9 @@ empresas:
     image: cajaRural.png
     link: http://www.cajaruraldeasturias.com/
     linktitle: Ir a la web de la Caja Rural de Asturias
+  - name: Gretel Planner
+    image: gretelplanner.png
+    link: https://gretelplanner.com/
   - name: Danone YoPRO
     image: yopro.png
     link: https://www.danone.es/es/yopro
