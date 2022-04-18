@@ -4,10 +4,6 @@ empresas:
     image: asturpro.png
     link: https://www.facebook.com/AsturproGijon/
     linktitle: Ir a la web de Asturpro
-  - name: Las Caldas Villa Termal
-    image: caldasClinic.png
-    link: https://www.lascaldasvillatermal.com/
-    linktitle: Ir a la web de Las Caldas Villa Termal
   - name: Dole
     image: dole.png
     link: http://www.dole-espanol.com/Home2
@@ -16,13 +12,6 @@ empresas:
     image: jara.png
     link: https://www.facebook.com/jarafernandezrodriguez/
     linktitle: Ir a la web de Dietética Jara
-  - name: Mieles y licores Vayú
-    image: vayu.png
-    link: http://www.miellicoresvayu.com/
-  - name: Clínica podología y posturología Nuevo Langreo
-    image: podologoNuevoLangreo.png
-    link: http://clinicanuevolangreo.com/
-    linktitle: Ir a la web de la Caja Rural de Asturias
   - name: Cafetería Pablo's
     image: cafeteriaPablos.png
     link: https://www.facebook.com/pages/Cafeter%C3%ADa-Pablos-Langreo-Asturias/313090022180542
@@ -43,18 +32,6 @@ empresas:
     image: corazonnegro.png
     link: https://corazonnegrocrossfit.com/
     linktitle: Ir a la web de Corazón Negro Crossfit	
-  - name: Sidrería Les Escueles
-    image: sidreriaLesEscueles.png
-    link: https://www.facebook.com/Sidrer%C3%ADa-Les-Escueles-1485727595079763/
-    linktitle: Ir a la web de la Sidrería Les Escueles
-  - name: Zapatería Don Tacón
-    image: dontacon.png
-    link: http://zapateriadontacon.com/
-    linktitle: Ir a la web de la zapatería Don Tacón
-  - name: Clara I. Rebolo Castro Abogadas
-    image: claraIReboloCastroAbogadas.png
-    link: "https://www.facebook.com/pages/Rebolo-Castro-Clara-Isabel/1896845517209036"
-    linktitle: "Ir a la página de Clara I. Rebolo Castro Abogadas"	
   - name: Caja Rural de Asturias
     image: cajaRural.png
     link: http://www.cajaruraldeasturias.com/
@@ -62,9 +39,6 @@ empresas:
   - name: Gretel Planner
     image: gretelplanner.png
     link: https://gretelplanner.com/
-  - name: Danone YoPRO
-    image: yopro.png
-    link: https://www.danone.es/es/yopro
     linktitle: Ir a la web de la Asociación Cultural San Luis de La Nueva
   - name: Victorius Sport Shop
     image: victorius.png
