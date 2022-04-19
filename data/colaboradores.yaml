@@ -68,3 +68,27 @@ empresas:
     image: suminfor.png
     link: http://www.suminfor.com/
     linktitle: Ir a la web de Suminfor
+  - name: Aliviflex
+    image: aliviflex.jpg
+    link: ""
+    linktitle: ""
+  - name: Clínica del Calzado
+    image: cerrajeroclinicadelcalzado.jpg
+    link: ""
+    linktitle: ""
+  - name: Refugio del Meicín
+    image: meicin.jpg
+    link: https://www.refugiodelmeicin.es/
+    linktitle: Ir a la web del Refugio del Meicín
+  - name: Caldillo d'Arriba
+    image: caldillo.jpg
+    link: http://cartacasacaldillo.ddns.net/Carta.pdf
+    linktitle: Ir a la web de la parrilla Caldillo d'Arriba
+  - name: Mixture
+    image: mixture.jpg
+    link: https://mixture.es/
+    linktitle: Ir a la web de Mixture
+  - name: Montaña Restauración Medioambiental
+    image: montana.jpg
+    link: http://www.montanamedioambiente.es/
+    linktitle: Ir a la web de Montaña Restauración Medioambiental
