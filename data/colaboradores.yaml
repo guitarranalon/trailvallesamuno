@@ -28,10 +28,6 @@ empresas:
     image: connorte.png
     link: "https://www.connorte.com"
     linktitle: "Ir a la web de Connorte Economistas"
-  - name: Corazón Negro Crossfit
-    image: corazonnegro.png
-    link: https://corazonnegrocrossfit.com/
-    linktitle: Ir a la web de Corazón Negro Crossfit	
   - name: Caja Rural de Asturias
     image: cajaRural.png
     link: http://www.cajaruraldeasturias.com/
