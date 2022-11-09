@@ -86,7 +86,10 @@ pages:
       title: Ir a la sección de la Política de calidad de la carrera
     - name: Política calidad
       path: informacion/politicacalidad.html
-      title: Ir a la sección de la Política de calidad de la carrera	 
+      title: Ir a la sección de la Política de calidad de la carrera
+    - name: Preguntas frecuentes
+      path: informacion/preguntasfrecuentes.html
+      title: Ir a la sección de preguntas frecuentes
   - name: Contacto
     path: contacto.html
     title: Ver información de contacto
