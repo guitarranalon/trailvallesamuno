@@ -1,89 +1,21 @@
 ---
 empresas:
-  - name: Asturpro
-    image: asturpro.png
-    link: https://www.facebook.com/AsturproGijon/
-    linktitle: Ir a la web de Asturpro
-  - name: Dole
-    image: dole.png
-    link: http://www.dole-espanol.com/Home2
-    linktitle: Ir a la web de Dole Europa
   - name: Dietética y Nutrición Jara
     image: jara.png
     link: https://www.facebook.com/jarafernandezrodriguez/
     linktitle: Ir a la web de Dietética Jara
-  - name: Cafetería Pablo's
-    image: cafeteriaPablos.png
-    link: https://www.facebook.com/pages/Cafeter%C3%ADa-Pablos-Langreo-Asturias/313090022180542
-    linktitle: Ir a la web de la Cafetería Pablo's
-  - name: Casa El Chato
-    image: elchato.png
-    link: https://www.facebook.com/pages/category/Bar/Casa-El-Chato-788998317807044/
-    linktitle: Ir a la web de Casa El Chato, La Nueva
-  - name: Casa Xuaquina
-    image: casaxuaquina.png
-    link: https://www.facebook.com/pages/category/Restaurant/Casa-Xuaquina-1766446313574140/
-    linktitle: Ir a la web de Casa Xuaquina, comida casera
-  - name: Connorte Economistas
-    image: connorte.png
-    link: "https://www.connorte.com"
-    linktitle: "Ir a la web de Connorte Economistas"
-  - name: Caja Rural de Asturias
-    image: cajaRural.png
-    link: http://www.cajaruraldeasturias.com/
-    linktitle: Ir a la web de la Caja Rural de Asturias
-  - name: Gretel Planner
-    image: gretelplanner.png
-    link: https://gretelplanner.com/
-    linktitle: Ir a la web de la Asociación Cultural San Luis de La Nueva
-  - name: Victorius Sport Shop
-    image: victorius.png
-    link: https://www.facebook.com/Victorius-Sport-Shop-1558240007744970/
-    linktitle: Ir a la web de Victorius Sport Shop
-  - name: Asociación Cultural San Luis de La Nueva
-    image: sanluis.png
-    link: https://www.facebook.com/acsanluis
-    linktitle: Ir a la web de la Asociación Cultural San Luis de La Nueva
-  - name: Totem Tattoo
-    image: totemtattoo.png
-    link: https://www.facebook.com/TotemTattooEstudio/
-    linktitle: Ir a la web de Totem Tattoo Estudio
-  - name: Carrocerías Osuna
-    image: osuna.png
-    link: https://www.facebook.com/Carrocerias-OSUNA-799713343436032/
-    linktitle: Ir a la web de Carrocerías Osuna
   - name: Peluquería Leticia Molano
     image: leticiamolano.png
     link: https://www.facebook.com/letyblan/
     linktitle: Ir a la web de la peluquería Leticia Molano
-  - name: Garaje Salamanca
-    image: garajeSalamanca.png
-    link: http://www.garajesalamanca.com/
-    linktitle: Ir a la web del Garaje Salamanca
-  - name: Suminfor
-    image: suminfor.png
-    link: http://www.suminfor.com/
-    linktitle: Ir a la web de Suminfor
   - name: Aliviflex
     image: aliviflex.jpg
     link: ""
     linktitle: ""
-  - name: Clínica del Calzado
-    image: cerrajeroclinicadelcalzado.jpg
-    link: https://www.facebook.com/pages/Clinica-del-Calzado/188710614848682
-    linktitle: Ir a la web de la Clínica del Calzado
-  - name: Refugio del Meicín
-    image: meicin.jpg
-    link: https://www.refugiodelmeicin.es/
-    linktitle: Ir a la web del Refugio del Meicín
   - name: Caldillo d'Arriba
     image: caldillo.jpg
     link: http://cartacasacaldillo.ddns.net/Carta.pdf
     linktitle: Ir a la web de la parrilla Caldillo d'Arriba
-  - name: Mixture
-    image: mixture.jpg
-    link: https://mixture.es/
-    linktitle: Ir a la web de Mixture
   - name: Montaña Restauración Medioambiental
     image: montana.jpg
     link: http://www.montanamedioambiente.es/
