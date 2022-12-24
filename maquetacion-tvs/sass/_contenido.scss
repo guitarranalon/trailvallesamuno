@@ -273,3 +273,10 @@
 	}
 }
 // FIN Roadbook
+
+// Reglamento
+.carrera_reglamento ol > li::marker{
+    font-size: 2rem;
+    font-family: $fontFamily;
+}
+// FIN Reglamento
