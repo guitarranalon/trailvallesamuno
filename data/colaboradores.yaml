@@ -24,3 +24,7 @@ empresas:
     image: cuevascash.png
     link: https://www.grupocuevas.com/cuevas-cash/
     linktitle: Ir a la web de Cuevas Cash
+  - name: Café bar Tere
+    image: cafebartere.png
+    link: https://www.facebook.com/cafebartere/
+    linktitle: Ir a la web del Café Bar Tere
