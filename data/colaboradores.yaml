@@ -28,3 +28,7 @@ empresas:
     image: cafebartere.png
     link: https://www.facebook.com/cafebartere/
     linktitle: Ir a la web del Café Bar Tere
+  - name: Disceas
+    image: disceas.png
+    link: https://disceas.es/es/
+    linktitle: Ir a la web de Disceas
