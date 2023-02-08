@@ -32,3 +32,7 @@ empresas:
     image: disceas.png
     link: https://disceas.es/es/
     linktitle: Ir a la web de Disceas
+  - name: Séneca
+    image: seneca.png
+    link: https://www.instagram.com/senecafisioterapia/
+    linktitle: Ir al Instagram de Séneca fisioterapia y readaptación
