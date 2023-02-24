@@ -40,3 +40,7 @@ empresas:
     image: cerrajeroclinicadelcalzado.jpg
     link: https://www.facebook.com/pages/Clinica-del-Calzado/188710614848682
     linktitle: Ir a la web de la Clínica del Calzado
+  - name: Asociación Cultural San Luis de La Nueva
+    image: sanluis.png
+    link: https://www.facebook.com/acsanluis
+    linktitle: Ir a la web de la Asociación Cultural San Luis de La Nueva
