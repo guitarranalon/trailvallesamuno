@@ -44,3 +44,15 @@ empresas:
     image: sanluis.png
     link: https://www.facebook.com/acsanluis
     linktitle: Ir a la web de la Asociación Cultural San Luis de La Nueva
+  - name: Casa El Chato
+    image: elchato.png
+    link: https://www.facebook.com/pages/category/Bar/Casa-El-Chato-788998317807044/
+    linktitle: Ir a la web de Casa El Chato, La Nueva
+  - name: Saunier Duval
+    image: saunierduval.png
+    link: https://www.saunierduval.es/
+    linktitle: Ir a la web de Saunier Duval
+  - name: Find Your Everest
+    image: findyoureverest.png
+    link: https://findyoureverest.es/
+    linktitle: Ir a la web de Find Your Everest
