@@ -56,3 +56,11 @@ empresas:
     image: findyoureverest.png
     link: https://findyoureverest.es/
     linktitle: Ir a la web de Find Your Everest
+  - name: Casa Xuaquina
+    image: casaxuaquina.png
+    link: https://www.facebook.com/pages/category/Restaurant/Casa-Xuaquina-1766446313574140/
+    linktitle: Ir a la web de Casa Xuaquina, comida casera
+  - name: Clínica podología y posturología Nuevo Langreo
+    image: podologoNuevoLangreo.png
+    link: http://clinicanuevolangreo.com/
+    linktitle: Ir a la web de la Clínica podología y posturología Nuevo Langreo
