@@ -68,3 +68,15 @@ empresas:
     image: fruteriagonzalin.png
     link: https://www.facebook.com/fruteriagonzalin/?locale=es_ES
     linktitle: Ir a la web de la frutería Gonzalín
+  - name: Industrial Alonso y Cuesta
+    image: alonsoycuesta.png
+    link: https://alonsoycuesta.com/
+    linktitle: Ir a la web de Industrial Alonso y Cuesta
+  - name: Connorte Economistas
+    image: connorte.png
+    link: "https://www.connorte.com"
+    linktitle: "Ir a la web de Connorte Economistas"
+  - name: Garaje Salamanca
+    image: garajeSalamanca.png
+    link: http://www.garajesalamanca.com/
+    linktitle: Ir a la web del Garaje Salamanca
