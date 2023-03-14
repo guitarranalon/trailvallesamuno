@@ -80,3 +80,19 @@ empresas:
     image: garajeSalamanca.png
     link: http://www.garajesalamanca.com/
     linktitle: Ir a la web del Garaje Salamanca
+  - name: Suminfor
+    image: suminfor.png
+    link: http://www.suminfor.com/
+    linktitle: Ir a la web de Suminfor
+  - name: Refugio del Meicín
+    image: meicin.jpg
+    link: https://www.refugiodelmeicin.es/
+    linktitle: Ir a la web del Refugio del Meicín
+  - name: Totem Tattoo
+    image: totemtattoo.png
+    link: https://www.facebook.com/TotemTattooEstudio/
+    linktitle: Ir a la web de Totem Tattoo Estudio
+  - name: Caja Rural de Asturias
+    image: cajaRural.png
+    link: http://www.cajaruraldeasturias.com/
+    linktitle: Ir a la web de la Caja Rural de Asturias
