@@ -64,10 +64,6 @@ empresas:
     image: podologoNuevoLangreo.png
     link: http://clinicanuevolangreo.com/
     linktitle: Ir a la web de la Clínica podología y posturología Nuevo Langreo
-  - name: Frutería Gonzalín
-    image: fruteriagonzalin.png
-    link: https://www.facebook.com/fruteriagonzalin/?locale=es_ES
-    linktitle: Ir a la web de la frutería Gonzalín
   - name: Industrial Alonso y Cuesta
     image: alonsoycuesta.png
     link: https://alonsoycuesta.com/
