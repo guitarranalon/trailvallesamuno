@@ -4,6 +4,7 @@ tvxs:
   sequence: "V"
   distance: "13"
   climb: "700"
+  abbrclimb: "700"
   date: 
     day: 20
     month: 4
@@ -15,7 +16,8 @@ tvs:
   name: "TVS"
   sequence: "VII"
   distance: "22"
-  climb: "1.5K"
+  climb: "1.500"
+  abbrclimb: "1.5K"
   date: 
     day: 21
     month: 4
@@ -27,7 +29,8 @@ gtvs:
   name: "GTVS"
   sequence: "IV"
   distance: "35"
-  climb: "2.2K"
+  climb: "2.200"
+  abbrclimb: "2.2K"
   date: 
     day: "20-21"
     month: 4
