@@ -4,19 +4,19 @@ title: "Programa"
 
 <div id="content-block">
 	<h2>Programa</h2>
-	<h3>Sábado 20 de abril</h3>
+	<h3>Sábado <%= data.main.tvxs.date.day %> de <%= data.main.tvxs.date.monthtext %></h3>
 	<ul>
-		<li><b>14:00 a 15:30</b> Recogida de dorsales TVxS y GTVS en la Asociación de Vecinos de La Nueva.</li>
-		<li><b>16:00</b> Salida del V TVxS </li>
-		<li><b>19:00</b> Cierre de meta TVxS</li>
-		<li><b>19:15</b> Entrega Premios TVxS</li>
+		<li><b>14:00 a 15:30</b> Recogida de dorsales <%= data.main.tvxs.name %> y <%= data.main.gtvs.name %> en la Asociación de Vecinos de La Nueva.</li>
+		<li><b>16:00</b> Salida del <%= data.main.tvxs.sequence %> <%= data.main.tvxs.name %> </li>
+		<li><b>19:00</b> Cierre de meta <%= data.main.tvxs.name %></li>
+		<li><b>19:15</b> Entrega Premios <%= data.main.tvxs.name %></li>
 	</ul> 
-	<h3>Domingo 21 de abril</h3>
+	<h3>Domingo <%= data.main.tvs.date.day %> de <%= data.main.tvs.date.monthtext %></h3>
 	<ul>
-		<li><b>07:00 a 08:30</b> Recogida dorsales TVS en la Asociación de Vecinos de La Nueva.</li>
-		<li><b>09:00</b> Salida VII TVS</li>
-		<li><b>14:00</b> Cierre de meta TVS</li>
-		<li><b>14:15</b> Entrega de premios TVS y GTVS</li>
+		<li><b>07:00 a 08:30</b> Recogida dorsales <%= data.main.tvs.name %> en la Asociación de Vecinos de La Nueva.</li>
+		<li><b>09:00</b> Salida <%= data.main.tvs.sequence %> <%= data.main.tvs.name %></li>
+		<li><b>14:00</b> Cierre de meta <%= data.main.tvs.name %></li>
+		<li><b>14:15</b> Entrega de premios <%= data.main.tvs.name %> y <%= data.main.gtvs.name %></li>
 	</ul>
 	<img src="../images/carrera/programa/salida.jpg" alt="Salida de la prueba" />		
 </div>

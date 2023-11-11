@@ -24,25 +24,25 @@ localScript: "<script>indexAnimations();</script>"
 		</div>
 		<div class="row aparte">
 			<ul class="data">
-				<li class="date"><span class="value">21</span> <span class="unit">abr</span></li>
-				<li class="distance"><span class="value">22</span> <span class="unit">km</span></li>
-				<li class="verticalGain"><span class="value">1.5K</span> <span class="unit">m+</span></li>
-				<li class="people"><span class="value">4</span> <span class="unit">avituall</span></li>
+				<li class="date"><span class="value"><%= data.main.tvs.date.day %></span> <span class="unit">abr</span></li>
+				<li class="distance"><span class="value"><%= data.main.tvs.distance %></span><span class="unit">km</span></li>
+				<li class="verticalGain"><span class="value"><%= data.main.tvs.climb %></span> <span class="unit">m+</span></li>
+				<li class="people"><span class="value"><%= data.main.tvs.aidStations %></span> <span class="unit">avituall</span></li>
 			</ul>
-			<h2>TVxS</h2>
+			<h2><%= data.main.tvxs.name %></h2>
 			<ul class="data">
-				<li class="date"><span class="value">20</span> <span class="unit">abr</span></li>
-				<li class="distance"><span class="value">13</span> <span class="unit">km</span></li>
-				<li class="verticalGain"><span class="value">700</span> <span class="unit">m+</span></li>
-				<li class="people"><span class="value">3</span> <span class="unit">avituall</span></li>			
+				<li class="date"><span class="value"><%= data.main.tvxs.date.day %></span> <span class="unit">abr</span></li>
+				<li class="distance"><span class="value"><%= data.main.tvxs.distance %></span> <span class="unit">km</span></li>
+				<li class="verticalGain"><span class="value"><%= data.main.tvxs.climb %></span> <span class="unit">m+</span></li>
+				<li class="people"><span class="value"><%= data.main.tvxs.aidStations %></span> <span class="unit">avituall</span></li>			
 			</ul>
 		</div>
 	</article>
 	<article class="excerpt alt">
 		<div class="row">
-			<h2>Tres retos, tres distancias: TVxS, TVS y GTVS</h2>
+			<h2>Tres retos, tres distancias: <%= data.main.tvxs.name %>, <%= data.main.tvs.name %> y <%= data.main.gtvs.name %></h2>
 			<img src="images/recorrido.jpg" alt="Participante descendiendo un tramo de bosque" />
-			<p>Encuentra tu desafío con las 3 modalidades: 13km, 22km y por etapas</p>
+			<p>Encuentra tu desafío con las 3 modalidades: <%= data.main.tvxs.distance %>km, <%= data.main.tvs.distance %>km y <%= data.main.gtvs.distance %>km por etapas</p>
 			<a class="button callToAction verRecorrido" href="carrera/recorrido.html" title="">
 				<svg class="icon inscripcion">
 					<use xlink:href="images/map.svg#recorrido-icon"></use>

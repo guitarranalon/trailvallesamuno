@@ -1,0 +1,38 @@
+---
+tvxs:
+  name: "TVxS"
+  sequence: "V"
+  distance: "13"
+  climb: "700"
+  date: 
+    day: 20
+    month: 4
+    year: 2024
+    abbrevatedMonth: "abr"
+    monthtext: "abril"
+  aidStations: 3
+tvs:
+  name: "TVS"
+  sequence: "VII"
+  distance: "22"
+  climb: "1.5K"
+  date: 
+    day: 21
+    month: 4
+    year: 2024
+    abbrevatedMonth: "abr"
+    monthtext: "abril"    
+  aidStations: 4
+gtvs:
+  name: "GTVS"
+  sequence: "IV"
+  distance: "35"
+  climb: "2.2K"
+  date: 
+    day: "20-21"
+    month: 4
+    year: 2024
+    abbrevatedMonth: "abr"
+    monthtext: "abril"    
+  aidStations: 7
+  stages: 2
