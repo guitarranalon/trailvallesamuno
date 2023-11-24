@@ -1,6 +1,7 @@
 ---
 tvxs:
   name: "TVxS"
+  mainsponsor: ""
   sequence: "V"
   distance: "13"
   climb: "700"
@@ -9,11 +10,12 @@ tvxs:
     day: 20
     month: 4
     year: 2024
-    abbrevatedMonth: "abr"
+    abbreviatedMonth: "abr"
     monthtext: "abril"
   aidStations: 3
 tvs:
   name: "TVS"
+  mainsponsor: "Clínica Nalón Dental"
   sequence: "VII"
   distance: "22"
   climb: "1.500"
@@ -22,11 +24,12 @@ tvs:
     day: 21
     month: 4
     year: 2024
-    abbrevatedMonth: "abr"
+    abbreviatedMonth: "abr"
     monthtext: "abril"    
   aidStations: 4
 gtvs:
   name: "GTVS"
+  mainsponsor: ""
   sequence: "IV"
   distance: "35"
   climb: "2.200"
@@ -35,7 +38,7 @@ gtvs:
     day: "20-21"
     month: 4
     year: 2024
-    abbrevatedMonth: "abr"
+    abbreviatedMonth: "abr"
     monthtext: "abril"    
   aidStations: 7
   stages: 2
