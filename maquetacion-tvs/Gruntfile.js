@@ -147,5 +147,5 @@ module.exports = function(grunt) {
 
   // Register the default tasks.
   grunt.registerTask('default', ['watch']);
-  grunt.registerTask('prod',['compass:dist', 'concat', 'jshint', 'removelogging', 'uglify:dist']);
+  grunt.registerTask('prod',['compass:dist', 'concat', 'removelogging', 'uglify:dist']);
 };
