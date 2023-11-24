@@ -18,8 +18,7 @@
 	* Calculando la cantidad de colaboradores visibles al siguiente múltiplo de cuatro de la mitad de elementos
 	*/
 	function visibleCollaborators(totalCollabs) {
-		return totalCollabs;
-		// return Math.ceil((totalCollabs/2) / 4)*4;
+		return Math.ceil((totalCollabs/2) / 4)*4;
 	}
 
 	$.fn.randomCollaborators = function () {

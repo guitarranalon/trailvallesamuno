@@ -81,7 +81,7 @@ module.exports = function(grunt) {
 		  		'javascripts/desarrollo/jquery.menu-aim.js',
 		  		'javascripts/desarrollo/tvs.jquery.menu-aim-call.js',
 		  		'javascripts/desarrollo/tvs.jquery.mobileMenuAndSearch.js',
-		  		'javascripts/desarrollo/tvs.jquery.randomCollaborators.js',
+		  		// 'javascripts/desarrollo/tvs.jquery.randomCollaborators.js',
 		  		'javascripts/desarrollo/jquery.scrollUp.js',
 				'javascripts/desarrollo/featherlight.js',
 				'javascripts/desarrollo/featherlight.gallery.js',

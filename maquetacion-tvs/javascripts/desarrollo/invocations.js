@@ -5,6 +5,6 @@ $.menuAimCall();
 
 $.scrollUp({scrollText:"Volver arriba"});
 
-$.randomCollaborators();
+// $.randomCollaborators();
 
 $("#content").find(".gallery").featherlightGallery({galleryFadeIn:300,openSpeed:300,type:"image"});
