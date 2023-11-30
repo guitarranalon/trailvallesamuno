@@ -5,7 +5,7 @@
 				<% data.colaboradores.empresas.each do |empresa| %>
 					<li>
 						<a href="<%= empresa.link %>" title="<%= empresa.linktitle %>">
-							<%= image_tag "colaboradores/"+empresa.image, :alt => empresa.name %>
+							<%= image_tag "colaboradores/"+empresa.image, :alt => empresa.name, :loading => "lazy" %>
 						</a>
 					</li>
 				<% end %>
