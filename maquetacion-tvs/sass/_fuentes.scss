@@ -41,17 +41,3 @@ $font-root:'../fonts';
     font-style: normal;
     font-display: swap;
 }
-
-
-
-
-@font-face {
-    font-family: 'montserratultra_light';
-    src: url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.eot');
-    src: url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.woff2') format('woff2'),
-         url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.woff') format('woff'),
-         url('#{$font-root}/montserrat-ultralight/montserrat-ultralight-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
