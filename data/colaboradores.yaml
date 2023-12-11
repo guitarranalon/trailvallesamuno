@@ -60,6 +60,10 @@ empresas:
     image: casaxuaquina.png
     link: https://www.facebook.com/pages/category/Restaurant/Casa-Xuaquina-1766446313574140/
     linktitle: Ir a la web de Casa Xuaquina, comida casera
+  - name: La Vallicuerra
+    image: vallicuerra.webp
+    link: https://lavallicuerra.com/
+    linktitle: Ir a la web de La Vallicuerra, casas de aldea
   - name: Clínica podología y posturología Nuevo Langreo
     image: podologoNuevoLangreo.png
     link: http://clinicanuevolangreo.com/
