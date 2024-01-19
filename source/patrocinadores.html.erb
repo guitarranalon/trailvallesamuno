@@ -8,7 +8,7 @@ title: "Patrocinadores"
 		<% data.patrocinadores.empresas.each do |empresa| %>
 			<li>
 				<a href="<%= empresa.link %>" title="<%= empresa.linktitle %>">
-					<img src="../images/patrocinadores/<%= empresa.image %>" alt="<%= empresa.name %>" />
+					<img src="images/patrocinadores/<%= empresa.image %>" alt="<%= empresa.name %>" />
 				</a>
 			</li>
 		<% end %>
@@ -21,11 +21,11 @@ title: "Patrocinadores"
 				<li>
 					<% if colaboradoroficial.link.nil? || colaboradoroficial.link.empty? %>
 						<span>
-							<img src="../images/colaboradores/<%= colaboradoroficial.image %>" alt="<%= colaboradoroficial.name %>" />
+							<img src="images/colaboradores/<%= colaboradoroficial.image %>" alt="<%= colaboradoroficial.name %>" />
 						</span>
 					<% else %>
 						<a href="<%= colaboradoroficial.link %>" title="<%= colaboradoroficial.linktitle %>">
-							<img src="../images/colaboradores/<%= colaboradoroficial.image %>" alt="<%= colaboradoroficial.name %>" />
+							<img src="images/colaboradores/<%= colaboradoroficial.image %>" alt="<%= colaboradoroficial.name %>" />
 						</a>
 					<% end %>
 				</li>
@@ -33,16 +33,17 @@ title: "Patrocinadores"
 		</ul>
 	<% end %>
 
+	<h3>Colaboradores</h3>
 	<ul class="patrocinadores">
 		<% data.colaboradores.empresas.each do |colaborador| %>
 			<li>
 				<% if colaborador.link.nil? || colaborador.link.empty? %>
 					<span>
-						<img src="../images/colaboradores/<%= colaborador.image %>" alt="<%= colaborador.name %>" />
+						<img src="images/colaboradores/<%= colaborador.image %>" alt="<%= colaborador.name %>" />
 					</span>
 				<% else %>
 					<a href="<%= colaborador.link %>" title="<%= colaborador.linktitle %>">
-						<img src="../images/colaboradores/<%= colaborador.image %>" alt="<%= colaborador.name %>" />
+						<img src="images/colaboradores/<%= colaborador.image %>" alt="<%= colaborador.name %>" />
 					</a>
 				<% end %>
 			</li>
@@ -50,6 +51,6 @@ title: "Patrocinadores"
 	</ul>
 
 	<p>
-		Si desea colaborar con un patrocinio en el Trail Valle de Samuño puede ponerse en <a href="../contacto.html" title="Ir a la sección de contacto">contacto</a> con nosotros.
+		Si desea colaborar con un patrocinio en el Trail Valle de Samuño puede ponerse en <a href="contacto.html" title="Ir a la sección de contacto">contacto</a> con nosotros.
 	</p>
 </div>

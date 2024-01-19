@@ -2,6 +2,21 @@
 	<div id="colaboradoresFooter">
 		<div class="row">
 			<ul class="patrocinadores">
+			<% data.colaboradores.oficiales.each do |epigrafeoficial| %>
+				<% epigrafeoficial.empresas.each do |colaboradoroficial| %>
+					<li>
+						<% if colaboradoroficial.link.nil? || colaboradoroficial.link.empty? %>
+							<span>
+								<img src="images/colaboradores/<%= colaboradoroficial.image %>" alt="<%= colaboradoroficial.name %>" />
+							</span>
+						<% else %>
+							<a href="<%= colaboradoroficial.link %>" title="<%= colaboradoroficial.linktitle %>">
+								<img src="images/colaboradores/<%= colaboradoroficial.image %>" alt="<%= colaboradoroficial.name %>" />
+							</a>
+						<% end %>
+					</li>
+				<% end %>
+			<% end %>
 				<% data.colaboradores.empresas.each do |empresa| %>
 					<li>
 						<a href="<%= empresa.link %>" title="<%= empresa.linktitle %>">
