@@ -45,16 +45,9 @@ pages:
       - name: 2016
         path: carrera/edicionesanteriores/2016.html
         title: Ir a la página sobre la edición de 2016
-  - name: Colaboradores
-    path: "#"
-    title: "Colaboradores de la prueba"
-    children:
-      - name: Patrocinadores
-        path: colaboradores/patrocinadores.html
-        title: Patrocinadores de la prueba
-      - name: Colaboradores
-        path: colaboradores/colaboradores.html
-        title: Colaboradores de la prueba
+  - name: Patrocinadores
+    path: "patrocinadores.html"
+    title: "Patrocinadores de la prueba"
   - name: Entorno
     path: "#"
     title: Información sobre el entorno en que se desarrolla la prueba

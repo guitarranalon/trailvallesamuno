@@ -52,10 +52,6 @@ empresas:
     image: saunierduval.png
     link: https://www.saunierduval.es/
     linktitle: Ir a la web de Saunier Duval
-  - name: Find Your Everest
-    image: findyoureverest.png
-    link: https://findyoureverest.es/
-    linktitle: Ir a la web de Find Your Everest
   - name: Casa Xuaquina
     image: casaxuaquina.png
     link: https://www.facebook.com/pages/category/Restaurant/Casa-Xuaquina-1766446313574140/
@@ -100,3 +96,10 @@ empresas:
     image: joyeriaesmeralda.webp
     link: https://www.facebook.com/profile.php?id=100090043230030
     linktitle: Ir a la página de la Joyería Relojería Esmeralda en Langreo
+oficiales:
+  - title: "Tienda online oficial"
+    empresas:
+    - name: Find Your Everest
+      image: findyoureverest.png
+      link: https://findyoureverest.es/
+      linktitle: Ir a la web de Find Your Everest
