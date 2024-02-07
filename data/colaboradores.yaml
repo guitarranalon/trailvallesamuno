@@ -10,8 +10,8 @@ empresas:
     linktitle: Ir a la web de la peluquería Leticia Molano
   - name: Aliviflex
     image: aliviflex.jpg
-    link: ""
-    linktitle: ""
+    link: "https://aliviflex.com/"
+    linktitle: "Ir a la web de Aliviflex"
   - name: Caldillo d'Arriba
     image: caldillo.jpg
     link: http://cartacasacaldillo.ddns.net/Carta.pdf
