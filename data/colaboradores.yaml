@@ -96,6 +96,10 @@ empresas:
     image: dontacon.webp
     link: http://zapateriadontacon.com/
     linktitle: Ir a la web de la zapatería Don Tacón
+  - name: Aguimar Inox
+    image: aguimar.webp
+    link: https://aguimarinox.wordpress.com/
+    linktitle: Ir a la web de Aguimar Inox
   - name: Joyería relojería La Esmeralda
     image: joyeriaesmeralda.webp
     link: https://www.facebook.com/profile.php?id=100090043230030
