@@ -84,6 +84,10 @@ empresas:
     image: suminfor.png
     link: http://www.suminfor.com/
     linktitle: Ir a la web de Suminfor
+  - name: Horizonte Trail
+    image: horizontetrail.png
+    link: https://www.facebook.com/p/Horizonte-Trail-Langreo-100055000754624/
+    linktitle: Ir a la página de Horizonte Trail Langreo
   - name: Refugio del Meicín
     image: meicin.jpg
     link: https://www.refugiodelmeicin.es/
