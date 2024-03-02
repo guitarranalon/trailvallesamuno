@@ -7,11 +7,11 @@
 					<li>
 						<% if colaboradoroficial.link.nil? || colaboradoroficial.link.empty? %>
 							<span>
-								<img src="images/colaboradores/<%= colaboradoroficial.image %>" alt="<%= colaboradoroficial.name %>" />
+								<%= image_tag "colaboradores/"+colaboradoroficial.image, :alt => colaboradoroficial.name, :loading => "lazy"  %>
 							</span>
 						<% else %>
 							<a href="<%= colaboradoroficial.link %>" title="<%= colaboradoroficial.linktitle %>">
-								<img src="images/colaboradores/<%= colaboradoroficial.image %>" alt="<%= colaboradoroficial.name %>" />
+								<%= image_tag "colaboradores/"+colaboradoroficial.image, :alt => colaboradoroficial.name, :loading => "lazy"  %>
 							</a>
 						<% end %>
 					</li>
