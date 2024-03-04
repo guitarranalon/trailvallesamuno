@@ -112,6 +112,10 @@ empresas:
     image: dianufilms.webp
     link: https://www.instagram.com/dianufilms/
     linktitle: Ir a la página de Diañu Films
+  - name: Llagar Alonso
+    image: sidraAlonso.png
+    link: https://www.llagaralonso.com/
+    linktitle: Ir a la página del Llagar Alonso
 oficiales:
   - title: "Tienda online oficial"
     empresas:
