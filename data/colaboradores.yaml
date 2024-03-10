@@ -112,8 +112,12 @@ empresas:
     image: dianufilms.webp
     link: https://www.instagram.com/dianufilms/
     linktitle: Ir a la página de Diañu Films
+  - name: Fanté nutrición deportiva
+    image: fante.webp
+    link: https://fanteofficial.com/
+    linktitle: Ir a la web de Fanté nutrición deportiva
   - name: Llagar Alonso
-    image: sidraAlonso.png
+    image: sidraAlonso.webp
     link: https://www.llagaralonso.com/
     linktitle: Ir a la página del Llagar Alonso
 oficiales:
