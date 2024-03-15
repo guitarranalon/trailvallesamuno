@@ -12,4 +12,7 @@ empresas:
     image: ecomuseo.png
     link: http://www.ecomuseominero.es/
     linktitle: Ir a la web del Ecomuseo Minero Valle de Samuño
-    
+  - name: Saunier Duval
+    image: saunierduval.png
+    link: https://www.saunierduval.es/
+    linktitle: Ir a la web de Saunier Duval
