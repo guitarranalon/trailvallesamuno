@@ -95,6 +95,7 @@ module.exports = function(grunt) {
 				'javascripts/desarrollo/progressBarsAnimations.js',
 				'javascripts/desarrollo/indexAnimations.js',
 		  		'javascripts/desarrollo/invocations.js',
+				'javascripts/desarrollo/tvs.historicRanking.js',
 		  	],
 		  dest: 'javascripts/all.js',
 		  nonull: true,
