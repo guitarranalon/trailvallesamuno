@@ -2,15 +2,6 @@ class Ranking {
     #results = [];
     #mainBlock = document.querySelector("#content-block");
 
-    #calculatePosition(athlete, referenceAthlete, index) {
-        if (!referenceAthlete) return index + 1;
-        if (athlete.gold !== referenceAthlete?.gold) return index + 1;
-        if (athlete.silver !== referenceAthlete?.silver) return index + 1;
-        if (athlete.bronze !== referenceAthlete?.bronze) return index + 1;
-
-        return index;
-    }
-
     #generateTable(data) {
         const tabla = document.createElement('table');
         const thead = document.createElement('thead');
@@ -30,11 +21,12 @@ class Ranking {
         // Crear las filas de datos
         data.forEach((athlete) => {
             const fila = document.createElement('tr');
-            fila.appendChild(document.createElement('td')).textContent = this.#calculatePosition(athlete, referenceAthlete, athleteIndex);
             if (this.#sortData(athlete, referenceAthlete) !== 0) {
                 referenceAthlete = athlete;
                 athleteIndex++;
             }
+            fila.appendChild(document.createElement('td')).textContent = athleteIndex;
+
             for (const clave in athlete) {
                 const celda = document.createElement('td');
                 celda.textContent = athlete[clave];
