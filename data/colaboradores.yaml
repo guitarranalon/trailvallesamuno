@@ -108,6 +108,10 @@ empresas:
     image: dianufilms.webp
     link: https://www.instagram.com/dianufilms/
     linktitle: Ir a la página de Diañu Films
+  - name: Gaiteros del Carbón
+    image: gaiterosdelcarbon.webp
+    link: https://gaiterosdelcarbon.com/
+    linktitle: Ir a la página de la banda Gaiteros del Carbón
   - name: Fanté nutrición deportiva
     image: fante.webp
     link: https://fanteofficial.com/
