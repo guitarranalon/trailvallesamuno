@@ -8,7 +8,7 @@ pages:
     path: "#"
     title: Ir a las páginas de la carrera
     children:
-    - name: Perfil y recorrido
+    - name: Recorrido
       path: carrera/recorrido.html
       title: Ir al perfil y mapa de la prueba
     - name: Roadbook
@@ -51,22 +51,6 @@ pages:
   - name: Patrocinadores
     path: "patrocinadores.html"
     title: "Patrocinadores de la prueba"
-  - name: Entorno
-    path: "#"
-    title: Información sobre el entorno en que se desarrolla la prueba
-    children:
-    - name: Langreo
-      path: entorno/langreo.html
-      title: Ir a la sección de Langreo
-    - name: Paisaje Protegido
-      path: entorno/paisajeprotegido.html
-      title: Ir a Paisaje Protegido de las Cuencas Mineras
-    - name: Patrimonio industrial
-      path: entorno/patrimonioindustrial.html
-      title: Ver información sobre el patrimonio industrial en el valle de Samuño
-    - name: Ecomuseo
-      path: entorno/ecomuseo.html
-      title: Ver información sobre el Ecomuseo Valle de Samuño      
   - name: Información
     path: "#"
     title: Información útil para participar en la carrera
@@ -89,6 +73,22 @@ pages:
     - name: Preguntas frecuentes
       path: informacion/preguntasfrecuentes.html
       title: Ir a la sección de preguntas frecuentes
+  - name: Entorno
+    path: "#"
+    title: Información sobre el entorno en que se desarrolla la prueba
+    children:
+    - name: Langreo
+      path: entorno/langreo.html
+      title: Ir a la sección de Langreo
+    - name: Paisaje Protegido
+      path: entorno/paisajeprotegido.html
+      title: Ir a Paisaje Protegido de las Cuencas Mineras
+    - name: Patrimonio industrial
+      path: entorno/patrimonioindustrial.html
+      title: Ver información sobre el patrimonio industrial en el valle de Samuño
+    - name: Ecomuseo
+      path: entorno/ecomuseo.html
+      title: Ver información sobre el Ecomuseo Valle de Samuño      
   - name: Contacto
     path: contacto.html
     title: Ver información de contacto
