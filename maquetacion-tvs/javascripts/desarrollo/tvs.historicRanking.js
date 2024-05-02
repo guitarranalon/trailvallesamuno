@@ -18,12 +18,11 @@ class Ranking {
 
         thead.appendChild(encabezado);
 
-        // Crear las filas de datos
-        data.forEach((athlete) => {
+        data.forEach((athlete, index) => {
             const fila = document.createElement('tr');
             if (this.#sortData(athlete, referenceAthlete) !== 0) {
                 referenceAthlete = athlete;
-                athleteIndex++;
+                athleteIndex = index + 1;
             }
             fila.appendChild(document.createElement('td')).textContent = athleteIndex;
 
