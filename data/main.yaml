@@ -2,43 +2,43 @@
 tvxs:
   name: "TVxS"
   mainsponsor: ""
-  sequence: "V"
+  sequence: "VI"
   distance: "13"
   climb: "700"
   abbrclimb: "700"
   date: 
-    day: 20
-    month: 4
-    year: 2024
-    abbreviatedMonth: "abr"
-    monthtext: "abril"
+    day: 29
+    month: 3
+    year: 2025
+    abbreviatedMonth: "mar"
+    monthtext: "marzo"
   aidStations: 3
 tvs:
   name: "TVS"
   mainsponsor: "Clínica Nalón Dental"
-  sequence: "VII"
+  sequence: "VIII"
   distance: "22"
   climb: "1.500"
   abbrclimb: "1.5K"
   date: 
-    day: 21
-    month: 4
-    year: 2024
-    abbreviatedMonth: "abr"
-    monthtext: "abril"    
+    day: 30
+    month: 3
+    year: 2025
+    abbreviatedMonth: "mar"
+    monthtext: "marzo"    
   aidStations: 4
 gtvs:
   name: "GTVS"
   mainsponsor: ""
-  sequence: "IV"
+  sequence: "V"
   distance: "35"
   climb: "2.200"
   abbrclimb: "2.2K"
   date: 
-    day: "20-21"
-    month: 4
-    year: 2024
-    abbreviatedMonth: "abr"
-    monthtext: "abril"    
+    day: "29-30"
+    month: 3
+    year: 2025
+    abbreviatedMonth: "mar"
+    monthtext: "marzo"    
   aidStations: 7
   stages: 2
